@@ -1,5 +1,5 @@
 import React from 'react'
-import HOC from '../../HOC/Hoc'
+import HOC from '../HOC/Hoc'
 
 function Home() {
   return (
