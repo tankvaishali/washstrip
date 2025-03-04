@@ -1,6 +1,7 @@
 import React from 'react'
 import Titlecom from '../HOC/Titlecom';
 import { HiCheckCircle } from 'react-icons/hi2';
+import CountUp from 'react-countup';
 
 function AboutUsSec() {
     return (
@@ -19,8 +20,10 @@ function AboutUsSec() {
                                 alt="Laundry Service"
                                 className="overlay-img rounded-4 object-fit-cover"
                             />
-                            <div className="play-button fs-4 text-white rounded-4 text-center fw-bold d-flex">
-                                <span>25+ Years</span>
+                            <div className="play-button fs-4 text-white rounded-4 text-center fw-bold d-flex flex-column">
+                                <span>
+                                    <CountUp start={0} end={25} duration={3.5} />+Years
+                                </span>
                                 <div>Experience</div>
                             </div>
                         </div>
