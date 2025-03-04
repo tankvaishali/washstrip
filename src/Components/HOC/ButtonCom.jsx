@@ -3,7 +3,7 @@ import React from 'react';
 function ButtonCom(props) {
   return (
    <>
-   <button className="c-button c-button--gooey p-2 px-4 text-decoration-none fw-bold fstyle"> {props.btn}
+   <button className="c-button c-button--gooey p-2 px-4 text-decoration-none fw-bold fstyle overflow-hidden"> {props.btn}
   <div className="c-button__blobs">
   <div></div>
   <div></div>
