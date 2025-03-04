@@ -9,8 +9,8 @@ function HomeCarousel() {
                     <div className='row py-5 pt-5'>
                         <div className='col-md-6 lh-lg mx-auto py-5 my-5 col-11 text-light animate__animated animate__bounceInLeft animate__slower d-flex  align-items-center'>
                             <div className=''>
-                                <h4>Welcome to Bedry</h4>
-                                <h1 className='display-3 fw-bold animate__animated'>Where Freshness Meets Care</h1>
+                                <h4>Welcome to Washstrip</h4>
+                                <h1 className='display-3 fw-bold animate__animated'>New To Kind Laundry? Start Here</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
                                     luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                                 <Titlecom ftitle={"Discover More"} />
