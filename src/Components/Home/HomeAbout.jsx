@@ -5,7 +5,7 @@ import ButtonCom from '../HOC/ButtonCom';
 function HomeAbout() {
   return (
     <>
-      <div className="container my-5">
+      <div className="container my-5 py-5">
         <div className="row g-3">
           <div className="col-12 col-lg-6  ">
             <div className="h-100 d-flex  flex-column justify-content-center">
