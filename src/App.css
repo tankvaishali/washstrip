@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+--green:rgb(115,186,56);
+--teal:rgb(0, 140, 141);
+}
+.fstyle{
+    font-family:"Roboto Slab", serif;
+}
