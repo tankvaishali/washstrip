@@ -10,8 +10,8 @@ function About() {
   return (
     <>
       <AboutUsSec />
-      <Team />
       <MissionVision />
+      <Team />
       <QualityAssurance />
     </>
   );
