@@ -139,3 +139,85 @@
   }
 }
 /* Team end */
+
+/* MissionVision start */
+.main_vi_mi {
+  padding: 100px 10px 100px 10px;
+}
+.vision_mision_bg {
+  width: 100%;
+  height: auto;
+  background-image: url("https://newkit.moxcreative.com/hauske/wp-content/uploads/sites/5/2022/07/young-woman-taking-laundry-from-washing-machine-and-smiling-at-camera.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: inset 0px 0px 0px 1500px rgba(0, 141, 141, 0.712);
+  z-index: 1 !important;
+}
+.mainViMiSec {
+  margin-top: -135px;
+  z-index: 10 !important;
+}
+.play_Circle_icon {
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 15px 5px currentColor;
+  box-shadow: 0 0 15px 5px currentColor;
+  -webkit-animation: button-ripple 3s infinite;
+  animation: button-ripple 3s infinite;
+}
+@keyframes button-ripple {
+  0% {
+    box-shadow: 0 0 5px 2px currentColor;
+  }
+  50% {
+    box-shadow: 0 0 20px 10px currentColor;
+  }
+  100% {
+    box-shadow: 0 0 5px 2px currentColor;
+  }
+}
+.vision_mission_icon {
+  color: var(--teal);
+}
+/* MissionVision end */
+
+/* QualityAssurance start */
+.posdiv {
+  width: 50%;
+  margin-top: -300px;
+  position: relative;
+}
+.main_qualityimg {
+  width: 90%;
+}
+@media only screen and (max-width: 991px) {
+  .posdiv {
+    margin-top: 0;
+    position: static;
+    width: 100%;
+  }
+  .main_qualityimg {
+    width: 100%;
+  }
+  .pos_Quality_content {
+    margin-top: 170px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .main_qualityimg {
+    height: auto !important;
+  }
+  .pos_Quality_content {
+    margin-top: 0px;
+  }
+}
+.Quality_count {
+  background-color: var(--teal);
+}
+.Quality_contact_redirect {
+  transition: all 0.4s ease-in-out;
+}
+.Quality_contact_redirect:hover {
+  color: var(--green) !important;
+}
+/* QualityAssurance end */
