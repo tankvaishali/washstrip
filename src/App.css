@@ -10,6 +10,12 @@
 .fstyle{
     font-family:"Roboto Slab", serif;
 }
+ .tealcolor{
+  color: var(--teal);
+ }
+ .greencolor{
+  color: var(--green);
+ }
 .pera{
     font-size: 14.5px;
 }
