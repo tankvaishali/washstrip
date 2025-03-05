@@ -167,4 +167,14 @@ padding-top: 250px;
   }
   
 /* Homeproduct end */
+/* testimoial start */
+.testimonial_bg{
+    background-image: url("https://i.ytimg.com/vi/Sq6c191AmSg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLARAhkl2veqNeYY-sKRmmWii6LZIA");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    box-shadow: inset 0px 0px 1500px 1000px rgba(255, 255, 255, 0.829);
+}
+/* testimoial end */
 

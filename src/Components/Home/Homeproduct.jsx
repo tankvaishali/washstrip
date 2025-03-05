@@ -32,11 +32,13 @@ function Homeproduct() {
     <>
     <div className='homeproduct_bg ' >
 <div className="container-fluid py-5">
+<div className="container">
 <div className='text-white text-center d-flex flex-column justify-content-center align-items-center'>
   <Titlecom ftitle="Our Products" title="How Many Washstrip Sheets Do You Need?"/>
 </div>
 <p className='pera text-secondary text-center pt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ab quod suscipit impedit exercitationem ut nisi culpa nesciunt velit ea! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dolorum assumenda et nostrum veniam nisi illo, velit quia consectetur delectus.
 </p>
+</div>
 
 
 
