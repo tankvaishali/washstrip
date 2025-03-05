@@ -1,10 +1,16 @@
-import React from 'react'
-import HOC from '../HOC/Hoc'
+import React from 'react';
+import HOC from '../HOC/Hoc';
+import "../../Assets/css/About.css";
+import AboutUsSec from './AboutUsSec';
+import Team from './Team';
 
 function About() {
   return (
-    <div>About</div>
-  )
+    <>
+      <AboutUsSec />
+      <Team />
+    </>
+  );
 }
 
-export default HOC(About)
+export default HOC(About);

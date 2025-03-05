@@ -12,15 +12,13 @@
 .fstyle {
   font-family: "Roboto Slab", serif;
 }
-
-.pera {
-  font-size: 13px;
+.pera{
+    font-size: 13px;
 }
-
-.gradientgreen {
-  background-image: linear-gradient(45deg, rgb(75, 139, 32), rgb(130, 197, 66), rgb(143, 208, 66));
-  box-shadow: 0px 4px 4px -1px rgb(36, 189, 195);
-  width: fit-content;
+.gradientgreen{
+    background-image:linear-gradient(45deg,rgb(75, 139, 32),rgb(130,197,66),rgb(143,208,66));
+    box-shadow: 0px 4px 4px -1px rgb(36, 189, 195);
+    width: fit-content;
 }
 
 
