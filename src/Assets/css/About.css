@@ -48,7 +48,7 @@
   margin-top: 100px;
   width: 100%;
   height: auto;
-  background-image: url("../images/upscalemedia-transformed.jpeg");
+  background-image: url("../images/form_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -180,3 +180,104 @@
   color: var(--teal);
 }
 /* MissionVision end */
+/* testimoial start */
+.testimonial_bg {
+  background-image: url("https://i.ytimg.com/vi/Sq6c191AmSg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLARAhkl2veqNeYY-sKRmmWii6LZIA");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0px 0px 0px 1500px rgb(0 140 141 / 82%);
+}
+
+.combg_color {
+  padding-bottom: 190px !important;
+
+}
+
+.custom-dots .slick-dots li button:before {
+  font-size: 16px;
+  /* Increase font size to make dots larger */
+  width: 18px;
+  /* Set width */
+  height: 18px;
+  /* Set height */
+}
+
+.custom-dots .slick-dots li.slick-active button:before {
+  color: rgb(0, 56, 56)!important;
+}
+
+.custom-dots .slick-dots li button:before {
+  font-size: 16px;
+  width: 18px;
+  height: 18px;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+  opacity: 1;
+}
+
+
+
+.comments_cardhover {
+  transition: all 0.3s ease-in-out;
+}
+
+.comments_cardhover:hover {
+  transform: translateY(-15px);
+}
+
+.main-card {
+  height: 280px;
+}
+
+.custom-card {
+  height: 55% !important;
+}
+
+.iconquote {
+  color: rgba(0, 94, 94, 0.377);
+}
+
+@media (max-width: 1200px) {
+  .custom-card {
+      height: 60% !important;
+  }
+
+  .main-card {
+      height: 310px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .custom-card {
+      height: 70% !important;
+  }
+
+  .main-card {
+      height: 390px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .custom-card {
+      height: 50% !important;
+  }
+
+  .main-card {
+      height: 250px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .custom-card {
+      height: 60% !important;
+  }
+
+  .main-card {
+      height: 300px !important;
+  }
+}
+
+/* testimoial end */

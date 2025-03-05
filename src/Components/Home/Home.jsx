@@ -6,7 +6,6 @@ import HomeCarousel from './HomeCarousel'
 import Homeproduct from './Homeproduct'
 import Homeservice from './Homeservice'
 import Counter from './Counter'
-import Testimonial from './Testimonial'
 import QualityAssurance from './QualityAssurance'
 
 function Home() {
@@ -18,7 +17,7 @@ function Home() {
       <Homeservice/>
       <Homeproduct/>
       <QualityAssurance/>
-      <Testimonial/>
+  
     </>
   )
 }

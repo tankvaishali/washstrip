@@ -86,7 +86,7 @@ function Testimonial() {
                                                 <h1 className="iconquote "><FaQuoteLeft />
                                                 </h1>
                                                 <div className="peracontent py-1 custom-card">
-                                                    <div className="my-auto">{x.content}</div>
+                                                    <div  className="my-auto">{x.content}</div>
                                                 </div>
                                                 <div className="pb-1" style={{ color: "orange" }}>
                                                     <FaStar />
