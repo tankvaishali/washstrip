@@ -26,7 +26,7 @@ function Header() {
   }, []);
 
   return (
-    <nav className="navbar navbar-expand-md navbar-light fixed-top px-3 py-0 ps-0 pe-0 align-items-start" style={{ backgroundColor: bgColor, transition: "background-color 0.3s ease-in-out" }}>
+    <nav className="fstyle navbar navbar-expand-md navbar-light fixed-top px-3 py-0 ps-0 pe-0 align-items-start" style={{ backgroundColor: bgColor, transition: "background-color 0.3s ease-in-out" }}>
       <Link className="navbar-brand bg-light px-3 rounded-start-0 rounded-bottom-circle me-0" to="/" style={{ boxShadow: "1px 1px 15px black" }}>
         <img src={require('../../Assets/images/logopngCropR.png')} alt="Logo" height={100} width={100} className="img-fluid" />
       </Link>
@@ -68,20 +68,20 @@ function Header() {
       <div className="navbar-collapse d-md-block d-none justify-content-end pb-1" id="navbarNav" style={{ backgroundColor: bgColor, transition: "background-color 0.3s ease-in-out" }}>
         <ul className="navbar-nav pt-3 px-3 ulbg" >
           <li className="nav-item">
-            <Link className={`nav-link px-4 ${location.pathname === "/" ? "active" : ""}`} to="/" style={{ color: fontColor }}
-            ><FaHome className='fs-3' style={{ color: fontColor }} /> </Link>
+            <Link className={`nav-link px-4 mx-1 ${location.pathname === "/" ? "active" : ""}`} to="/" style={{ color: fontColor }}
+            ><FaHome className='fs-4' style={{ color: fontColor }} /> </Link>
           </li>
           <li className="nav-item">
-            <Link className={`nav-link px-4 ${location.pathname === "/about" ? "active" : ""}`} to="/about" style={{ color: fontColor }} >About</Link>
+            <Link className={`nav-link px-4 mx-1  fs-6 ${location.pathname === "/about" ? "active" : ""}`} to="/about" style={{ color: fontColor }} >About</Link>
           </li>
           <li className="nav-item">
-            <Link className={`nav-link px-4 ${location.pathname === "/howto" ? "active" : ""}`} to="/howto" style={{ color: fontColor }} >How To</Link>
+            <Link className={`nav-link px-4 mx-1  fs-6 ${location.pathname === "/howto" ? "active" : ""}`} to="/howto" style={{ color: fontColor }} >How To</Link>
           </li>
           <li className="nav-item">
-            <Link className={`nav-link px-4 ${location.pathname === "/product" ? "active" : ""}`} to="/product" style={{ color: fontColor }} >Product</Link>
+            <Link className={`nav-link px-4 mx-1  fs-6 ${location.pathname === "/product" ? "active" : ""}`} to="/product" style={{ color: fontColor }} >Product</Link>
           </li>
           <li className="nav-item">
-            <Link className={`nav-link px-4 ${location.pathname === "/contact" ? "active" : ""}`} to="/contact" style={{ color: fontColor }} >Contact</Link>
+            <Link className={`nav-link px-4 mx-1  fs-6 ${location.pathname === "/contact" ? "active" : ""}`} to="/contact" style={{ color: fontColor }} >Contact</Link>
           </li>
         </ul>
       </div>
