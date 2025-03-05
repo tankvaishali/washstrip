@@ -1,9 +1,10 @@
 import React from 'react'
-import { BsInstagram } from 'react-icons/bs'
-import { FaGooglePlusG } from 'react-icons/fa'
-import { GrFacebookOption } from 'react-icons/gr'
-import { TbBrandWhatsapp } from 'react-icons/tb'
+
 import Titlecom from '../HOC/Titlecom'
+import { GrFacebookOption } from 'react-icons/gr';
+import { BsInstagram } from 'react-icons/bs';
+import { TbBrandWhatsapp } from 'react-icons/tb';
+import { FaGooglePlusG } from 'react-icons/fa';
 
 const teamMembers = [
     {
