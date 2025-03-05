@@ -1,6 +1,8 @@
 .carobgimg {
-    background-image: url('../images/extreacaro2.jpg');
+    background-image: url('https://www.laundrysolutionscompany.com/wp-content/uploads/2019/05/Row-of-Washing-Machines-in-a-Laundromat.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     box-shadow: inset 0px 0px 0px 1500px rgb(0 140 141 / 82%);
 }
 

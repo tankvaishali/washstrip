@@ -4,7 +4,7 @@ import Titlecom from '../HOC/Titlecom'
 function HomeCarousel() {
     return (
         <>
-            <div className="carobgimg overflow-hidden fstyle">
+            <div className="carobgimg overflow-hidden fstyle w-100">
                 <div className='container-lg'>
                     <div className='row py-5 pt-5'>
                         <div className='col-md-6 lh-lg mx-auto py-5 my-5 col-11 text-light animate__animated animate__bounceInLeft animate__slower d-flex  align-items-center'>
