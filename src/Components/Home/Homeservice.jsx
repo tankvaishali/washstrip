@@ -4,6 +4,7 @@ import Titlecom from '../HOC/Titlecom';
 function Homeservice() {
   return (
 <>
+<div className="servicebg">
 <div className="container ">
 <div className="shadow mx-auto service_sec p-4 pb-0 bg-white">
     <div className='d-flex flex-column jutify-content-center align-items-center text-center'>
@@ -63,6 +64,7 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, error!
 </div>
 </div>
     </div>
+</div>
 </div>
 </div>
 </div>

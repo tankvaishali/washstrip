@@ -27,18 +27,80 @@ height: 110px;
 height: 110px;
 }
 /* HomeAbout end */
-
+/* counter start */
+.counterbck_image{
+    background-image: url("https://raw.githubusercontent.com/tankvaishali/IT-Company/refs/heads/main/src/assets/image/counterimage002.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    box-shadow: inset 0px 0px 0px 2000px hsla(184, 94%, 6%, 0.904);
+  }
+  .counter{
+    font-family: var(--teal);
+    border: 2px solid #00545f96;
+  background-color: #021c1e3e ;
+    position: relative;
+    z-index: 0;
+    transition:  all 0.3s ease-in-out;
+  }
+  .counter::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color:var(--teal);
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    height: 0%;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+  }
+  .hovercolor{transition: all 0.3s ease-in-out;}
+  
+  .counter:hover::after{
+    bottom: 0%;
+    height: 100%;
+    color: white !important;
+  }
+  .counter:hover .hovercolor{
+    
+    color: white !important;
+  }
+  
+  .countericon{
+    font-size: 80px;
+  }
+  .countnumber{
+    font-family: none !important;
+    font-size:30px;
+  }
+  .nextprevbtn{
+  /* left: 20 !important; */
+  margin: 20px !important;
+  }
+/* counter end */
 /* service start */
+.servicebg{
+    background-image: url("../images/whychooseus_enhanced.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 160px;
+}
 .service_sec{
     width: 84%;
-    margin-bottom: -150px;
+    margin-bottom: -250px;
     position: relative;
 }
 @media only screen and (max-width: 768px){
     .service_sec{
         width: 88%;
     }
-}
+.servicebg{
+    padding-top: 50px;
+
+}}
 /* service end */
 /* Homeproduct start */
 .homeproduct_bg{
@@ -46,7 +108,7 @@ height: 110px;
     background-position: center;
     background-size: cover;  
 z-index: -1 !important;
-padding-top: 200px;
+padding-top: 250px;
 
 }
 @keyframes scrolllogorun {
