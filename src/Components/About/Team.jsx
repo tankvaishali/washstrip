@@ -31,8 +31,8 @@ const teamMembers = [
 
 function Team() {
     return (
-        <div className='our_team_bg my-5'>
-            <div className="container py-5">
+        <div className='our_team_bg mt-5'>
+            <div className="container" style={{ padding: "50px 20px 70px 20px" }}>
                 <div className="d-flex flex-column align-items-center">
                     <Titlecom ftitle={"Our Team"} />
                 </div>
