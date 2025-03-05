@@ -1,29 +1,92 @@
-import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { FaHome } from 'react-icons/fa';
+import { IoCloseSharp } from 'react-icons/io5';
+import { LuAlignRight } from 'react-icons/lu';
+import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
+  const location = useLocation();
+  const [isOpen, setIsOpen] = useState(false);
+  const [bgColor, setBgColor] = useState('transparent');
+  const [fontColor, setFontColor] = useState('white'); // Initial font color
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setBgColor('white');
+        setFontColor('black'); // Change font color to black when bg is white
+      } else {
+        setBgColor('transparent');
+        setFontColor('white'); // Keep font white when bg is transparent
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <div>
-      <Navbar expand="lg" className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Link to="/">Home</Link>
-              <Link to="/about">about</Link>
-              <Link to="/contact">contact</Link>
-              <Link to="/howto">howto</Link>
-              <Link to="/product">product</Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </div>
-  )
+    <nav className="navbar navbar-expand-md navbar-light fixed-top px-3 py-0 ps-0 pe-0 align-items-start" style={{ backgroundColor: bgColor, transition: "background-color 0.3s ease-in-out" }}>
+      <Link className="navbar-brand bg-light px-3 rounded-start-0 rounded-bottom-circle me-0" to="/" style={{ boxShadow: "1px 1px 15px black" }}>
+        <img src={require('../../Assets/images/logopngCropR.png')} alt="Logo" height={100} width={100} className="img-fluid" />
+      </Link>
+      <button className="navbar-toggler ms-auto py-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded={isOpen}
+        aria-label="Toggle navigation"
+        onClick={() => setIsOpen(!isOpen)}>
+        <span className="navbar-toggler-icon">
+          {isOpen ? <IoCloseSharp className='text-light fs-3' /> : <LuAlignRight className='fs-3' style={{ color: fontColor }} />}
+        </span>
+      </button>
+      <div className={`offcanvas offcanvas-end d-block d-md-none ${isOpen ? 'show animate_animated animate__backInRight animate__delay-2s' : ''}`} style={{ width: '100%', background: '#75b83a42', position: 'fixed', top: 0, right: 0, height: '100vh', transition: 'transform 0.3s ease-in-out', transform: isOpen ? 'translateX(0)' : 'translateX(100%)' }}>
+        <div className='ms-auto bg-light h-100' style={{ width: '250px' }}>
+          <div className="offcanvas-header justify-content-end p-3">
+            <button className="btn" onClick={() => setIsOpen(false)}>
+              <IoCloseSharp className='fs-3' />
+            </button>
+          </div>
+          <div className="offcanvas-body p-3" >
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <Link className={`nav-link text-center ${location.pathname === "/" ? "active" : ""}`} to="/" onClick={() => setIsOpen(false)} style={{ color: 'black', margin: "10px 0px 10px 0px" }}><FaHome className='fs-3' /></Link>
+              </li>
+              <li className="nav-item">
+                <Link className={`nav-link text-center ${location.pathname === "/about" ? "active" : ""}`} to="/about" onClick={() => setIsOpen(false)} style={{ color: 'black', margin: "10px 0px 10px 0px" }}>About</Link>
+              </li>
+              <li className="nav-item">
+                <Link className={`nav-link text-center ${location.pathname === "/howto" ? "active" : ""}`} to="/howto" onClick={() => setIsOpen(false)} style={{ color: 'black', margin: "10px 0px 10px 0px" }}>How To</Link>
+              </li>
+              <li className="nav-item">
+                <Link className={`nav-link text-center ${location.pathname === "/product" ? "active" : ""}`} to="/product" onClick={() => setIsOpen(false)} style={{ color: 'black', margin: "10px 0px 10px 0px" }}>Product</Link>
+              </li>
+              <li className="nav-item">
+                <Link className={`nav-link text-center ${location.pathname === "/contact" ? "active" : ""}`} to="/contact" onClick={() => setIsOpen(false)} style={{ color: 'black', margin: "10px 0px 10px 0px" }}>Contact</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="navbar-collapse d-md-block d-none justify-content-end pb-1" id="navbarNav" style={{ backgroundColor: bgColor, transition: "background-color 0.3s ease-in-out" }}>
+        <ul className="navbar-nav pt-3 px-3 ulbg" >
+          <li className="nav-item">
+            <Link className={`nav-link px-4 ${location.pathname === "/" ? "active" : ""}`} to="/" style={{ color: fontColor }}
+            ><FaHome className='fs-3' style={{ color: fontColor }} /> </Link>
+          </li>
+          <li className="nav-item">
+            <Link className={`nav-link px-4 ${location.pathname === "/about" ? "active" : ""}`} to="/about" style={{ color: fontColor }} >About</Link>
+          </li>
+          <li className="nav-item">
+            <Link className={`nav-link px-4 ${location.pathname === "/howto" ? "active" : ""}`} to="/howto" style={{ color: fontColor }} >How To</Link>
+          </li>
+          <li className="nav-item">
+            <Link className={`nav-link px-4 ${location.pathname === "/product" ? "active" : ""}`} to="/product" style={{ color: fontColor }} >Product</Link>
+          </li>
+          <li className="nav-item">
+            <Link className={`nav-link px-4 ${location.pathname === "/contact" ? "active" : ""}`} to="/contact" style={{ color: fontColor }} >Contact</Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
 }
 
-export default Header
+export default Header;
