@@ -4,7 +4,7 @@ import "../../Assets/css/About.css";
 import AboutUsSec from './AboutUsSec';
 import Team from './Team';
 import MissionVision from './MissionVision';
-import QualityAssurance from './QualityAssurance';
+
 
 function About() {
   return (
@@ -12,7 +12,7 @@ function About() {
       <AboutUsSec />
       <MissionVision />
       <Team />
-      <QualityAssurance />
+     
     </>
   );
 }

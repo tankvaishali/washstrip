@@ -51,7 +51,7 @@ function QualityAssurance() {
                                 <div className='Quality_count posdiv rounded-3 text-white p-3'>
                                     <div className='d-flex fstyle' style={{ gap: "20px" }}>
                                         <h1 style={{ letterSpacing: "2px" }}><CountUp start={0} end={25} duration={3.5} />+</h1>
-                                        <div className='fw-bold'>Year of <div>Experience</div></div>
+                                        <div className='fw-bold'>Year of <div>Experience </div></div>
                                     </div>
                                     <div className='pera mt-2 mb-3' style={{ wordBreak: "break-all" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet laudantium possimus impedit, eum corporis veritatis?</div>
                                     <div>
@@ -66,7 +66,7 @@ function QualityAssurance() {
                             <div>
                                 <Titlecom ftitle={"Quality Assurance"} title={"Your Satisfaction Is Our Commitment."} />
                             </div>
-                            <div className='text-secondary pera my-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+                            <div className='text-secondary pera my-2'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
                             <div className="pt-1">
                                 {progressBars.map((bar, index) => (
                                     <div key={index} className="mb-3 text-dark">

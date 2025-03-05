@@ -7,6 +7,7 @@ import Homeproduct from './Homeproduct'
 import Homeservice from './Homeservice'
 import Counter from './Counter'
 import Testimonial from './Testimonial'
+import QualityAssurance from './QualityAssurance'
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Counter/>
       <Homeservice/>
       <Homeproduct/>
+      <QualityAssurance/>
       <Testimonial/>
     </>
   )
