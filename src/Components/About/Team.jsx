@@ -9,22 +9,22 @@ import { FaGooglePlusG } from 'react-icons/fa';
 const teamMembers = [
     {
         name: "Williamson",
-        role: "Web Developer",
+        role: "Position",
         img: "https://bestjquery.com/tutorial/our-team/demo68/images/img-1.jpg"
     },
     {
         name: "Jessica Doe",
-        role: "Graphic Designer",
+        role: "Position",
         img: "https://bestjquery.com/tutorial/our-team/demo68/images/img-1.jpg"
     },
     {
         name: "Jessica Doe",
-        role: "UI/UX Designer",
+        role: "Position",
         img: "https://bestjquery.com/tutorial/our-team/demo68/images/img-1.jpg"
     },
     {
         name: "Sophia Brown",
-        role: "Marketing Manager",
+        role: "Position",
         img: "https://bestjquery.com/tutorial/our-team/demo68/images/img-1.jpg"
     }
 ];
