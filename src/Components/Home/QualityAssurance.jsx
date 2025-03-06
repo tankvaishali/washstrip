@@ -40,7 +40,7 @@ function QualityAssurance() {
 
     return (
         <>
-            <div className='container my-5'>
+            <div className='container my-5 py-5'>
                 <div className='row'>
                     <div className="col-12 col-lg-6 p-3 p-lg-4">
                         <div className="h-100">
@@ -55,7 +55,7 @@ function QualityAssurance() {
                                     </div>
                                     <div className='pera mt-2 mb-3' style={{ wordBreak: "break-all" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet laudantium possimus impedit, eum corporis veritatis?</div>
                                     <div>
-                                        <Link to={"/contact"} className='Quality_contact_redirect text-white text-decoration-none fw-semibold fstyle'><IoIosArrowDroprightCircle className='fs-5' /> Contact Us</Link>
+                                        <Link to={"/contact"} className='Quality_contact_redirect text-white text-decoration-none fw-semibold fstyle d-flex align-items-center'><IoIosArrowDroprightCircle className='fs-5 me-2' /> Contact Us</Link>
                                     </div>
                                 </div>
                             </div>
