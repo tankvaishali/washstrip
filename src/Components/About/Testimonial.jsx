@@ -193,7 +193,7 @@ function Testimonial() {
 
     return (
         <>
-            <div className='container my-0 my-lg-5 my-md-5'>
+            <div className='container my-2 my-lg-5 my-md-5'>
                 <div className='text-center d-flex flex-column align-items-center'>
                     <Titlecom ftitle="Testimonials" title="What Clients Say About Washstrip" />
                 </div>
