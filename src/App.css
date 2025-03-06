@@ -23,7 +23,12 @@
   width: fit-content;
 }
 
-
+.tealcolor{
+  color: var(--teal);
+ }
+ .greencolor{
+  color: var(--green);
+ }
 /* Button css start*/
 .c-button {
   color: #000;
