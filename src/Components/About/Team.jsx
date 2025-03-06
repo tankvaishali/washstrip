@@ -32,7 +32,7 @@ const teamMembers = [
 function Team() {
     return (
         <div className='our_team_bg'>
-            <div className="container" style={{ padding: "140px 20px 50px 20px" }}>
+            <div className="container" style={{ padding: "220px 20px 50px 20px" }}>
                 <div className="d-flex flex-column align-items-center">
                     <Titlecom ftitle={"Our Team"} />
                 </div>

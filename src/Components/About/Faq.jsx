@@ -10,7 +10,7 @@ function Faq() {
                     <div className='col-12 col-lg-6 p-4'>
                         <div className="h-100">
                             <div>
-                                <img src={"https://kfkit.rometheme.pro/bedry/wp-content/uploads/sites/75/2023/12/happy-housewife-with-laundry-and-detergents-PUPCNCD.png"} className='img-fluid w-100 h-100 object-fit-cover' alt="" />
+                                <img src={require("../../Assets/images/final iamge.png")} className='img-fluid w-100 h-100 object-fit-cover' alt="" />
                             </div>
                         </div>
                     </div>

@@ -9,7 +9,7 @@
 
 /* Team start */
 .our_team_bg {
-  margin-top: -100px;
+  margin-top: -180px;
   width: 100%;
   height: auto;
   background-image: url("../images/form_bg.jpg");
@@ -106,7 +106,7 @@
 
 /* MissionVision start */
 .main_vi_mi {
-  padding: 100px 10px 100px 10px;
+  padding: 100px 10px 150px 10px;
 }
 .vision_mision_bg {
   width: 100%;
@@ -120,7 +120,7 @@
 }
 .mainViMiSec {
   background: transparent;
-  margin-top: -135px;
+  margin-top: -160px;
   z-index: 10 !important;
 }
 .play_Circle_icon {
@@ -141,8 +141,25 @@
     box-shadow: 0 0 5px 2px currentColor;
   }
 }
+.Vi_Mi-shadow{
+  width: 20%;
+  height: 20%;
+  border: 1px solid red;
+  text-align: center;
+}
 .vision_mission_icon {
   color: var(--teal);
+  display: inline-block;
+  transition: transform 0.5s ease-in-out;
+}
+.Vi-Mi_Tittle {
+  transition: all 0.4s ease-in-out !important;
+}
+.Main_ViMi_box:hover .vision_mission_icon {
+  transform: rotateY(360deg) !important;
+}
+.Main_ViMi_box:hover .Vi-Mi_Tittle {
+  color: var(--green) !important;
 }
 /* MissionVision end */
 
