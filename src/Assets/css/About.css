@@ -1,51 +1,14 @@
 /* AboutUsSec start */
-.image-wrapper {
-  width: 100%;
-  height: auto !important;
-  display: flex;
-  position: relative;
-}
-.main-img {
-  width: 70%;
-  height: 100%;
-}
-.overlay-img {
-  width: 55%;
-  height: 80%;
-  top: 45%;
-  left: 0px;
-  position: absolute;
-  border: 10px solid white;
-}
-.play-button {
-  width: 45%;
-  position: absolute;
-  bottom: -100px;
-  right: 0px;
-  background: var(--teal);
-  padding: 10px 15px;
-  flex-direction: column;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  z-index: 3;
+.main_about_us_sec {
+  margin: 130px 0px 50px 0px;
 }
 .about_icon {
   color: var(--teal);
-}
-@media only screen and (max-width: 991px) {
-  .media_padding {
-    padding-top: 130px !important;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .media_padding {
-    padding-top: 90px !important;
-  }
 }
 /* AboutUsSec end */
 
 /* Team start */
 .our_team_bg {
-  margin-top: 100px;
   width: 100%;
   height: auto;
   background-image: url("../images/form_bg.jpg");
@@ -191,7 +154,6 @@
 
 .combg_color {
   padding-bottom: 190px !important;
-
 }
 
 .custom-dots .slick-dots li button:before {
@@ -204,7 +166,7 @@
 }
 
 .custom-dots .slick-dots li.slick-active button:before {
-  color: rgb(0, 56, 56)!important;
+  color: rgb(0, 56, 56) !important;
 }
 
 .custom-dots .slick-dots li button:before {
@@ -217,8 +179,6 @@
   color: white !important;
   opacity: 1;
 }
-
-
 
 .comments_cardhover {
   transition: all 0.3s ease-in-out;
@@ -242,41 +202,41 @@
 
 @media (max-width: 1200px) {
   .custom-card {
-      height: 60% !important;
+    height: 60% !important;
   }
 
   .main-card {
-      height: 310px !important;
+    height: 310px !important;
   }
 }
 
 @media (max-width: 767px) {
   .custom-card {
-      height: 70% !important;
+    height: 70% !important;
   }
 
   .main-card {
-      height: 390px !important;
+    height: 390px !important;
   }
 }
 
 @media (max-width: 700px) {
   .custom-card {
-      height: 50% !important;
+    height: 50% !important;
   }
 
   .main-card {
-      height: 250px !important;
+    height: 250px !important;
   }
 }
 
 @media (max-width: 400px) {
   .custom-card {
-      height: 60% !important;
+    height: 60% !important;
   }
 
   .main-card {
-      height: 300px !important;
+    height: 300px !important;
   }
 }
 
