@@ -34,14 +34,14 @@ function MissionVision() {
                 <div className='container'>
                     <div className='row mainViMiSec'>
                         <div className='col-12 col-lg-6 col-md-6'>
-                            <div className='shadow bg-white rounded-3 pt-1 pb-4 px-4 mb-4'>
+                            <div className='shadow bg-white rounded-3 pt-2 pb-4 px-4 mb-4'>
                                 <div className='vision_mission_icon fs-1'><HiLightBulb /></div>
                                 <div className='fstyle my-1 fs-4'>Vision</div>
                                 <div className='text-secondary pera'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
                             </div>
                         </div>
                         <div className='col-12 col-lg-6 col-md-6'>
-                            <div className='shadow bg-white rounded-3 pt-1 pb-4 px-4 mb-4'>
+                            <div className='shadow bg-white rounded-3 pt-2 pb-4 px-4 mb-4'>
                                 <div className='vision_mission_icon fs-1'><IoDiamondSharp /></div>
                                 <div className='fstyle my-1 fs-4'>Mission</div>
                                 <div className='text-secondary pera'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
