@@ -7,6 +7,7 @@ import Homeproduct from './Homeproduct'
 import Homeservice from './Homeservice'
 import Counter from './Counter'
 import QualityAssurance from './QualityAssurance'
+import Homecontact from './Homecontact'
 
 function Home() {
   return (
@@ -17,7 +18,7 @@ function Home() {
       <Homeservice/>
       <Homeproduct/>
       <QualityAssurance/>
-  
+      <Homecontact/>
     </>
   )
 }
