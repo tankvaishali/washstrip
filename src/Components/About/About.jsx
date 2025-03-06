@@ -5,6 +5,7 @@ import AboutUsSec from './AboutUsSec';
 import Team from './Team';
 import MissionVision from './MissionVision';
 import Testimonial from './Testimonial';
+import Faq from './Faq';
 
 
 function About() {
@@ -13,7 +14,8 @@ function About() {
       <AboutUsSec />
       <MissionVision />
       <Team />
-     <Testimonial/>
+      <Testimonial />
+      <Faq />
     </>
   );
 }
