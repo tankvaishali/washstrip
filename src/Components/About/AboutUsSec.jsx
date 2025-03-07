@@ -16,7 +16,7 @@ function AboutUsSec() {
                     </div>
                     <div className="col-12 col-lg-6 py-3 px-4">
                         <div className="h-100">
-                            <Titlecom ftitle={"About Us"} title={"Washing Strips: Small in Size, Big on Power"} />
+                            <Titlecom ftitle={"About Us"} title={"Your Trusted Partner In Wahing Care."} />
                             <div className='pera text-secondary pt-2'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
                             </div>

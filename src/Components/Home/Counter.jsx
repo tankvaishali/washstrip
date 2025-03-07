@@ -9,37 +9,36 @@ function Counter() {
   return (
     <>
     
-    <div className='counterbck_image mt-5'>
-<div className='container py-5'>
-<div className='row row-cols-lg-4 row-cols-md-2 row-cols-1 text-center g-3 py-3' data-aos="zoom-in" data-aos-delay="50"
-    data-aos-duration="1800">
-<div className='col' data-aos="zoom-in" data-aos-delay="50"
-    data-aos-duration="1800">
-<div className='text-white counter fw-bold py-3 p-1'>
+    <div className='counterbck_image mt-5 overflow-hidden'>
+<div className='container py-5 overflow-hidden'>
+<div className='row row-cols-lg-4  row-cols-md-2 row-cols-1 text-center g-3 py-3' >
+<div className='col ' data-aos="fade-right" data-aos-delay="100"
+     data-aos-once="true" data-aos-duration="800">
+<div className='text-white h-100  counter fw-bold py-3 p-1'>
+    <div className='countericon'><LiaUsersSolid /></div>
+    <p className='fs-4 tealcolor fstyle fw-bold hovercolor'>Customers Solutions</p>
+    <p className='countnumber'> <CountUp end={625} enableScrollSpy={true} separator="" /> +</p>
+</div>
+</div>
+<div className='col' data-aos="fade-right" data-aos-delay="400"
+     data-aos-once="true" data-aos-duration="1000">
+<div className='text-white h-100 counter fw-bold py-3 p-1'>
     <div className='countericon'><MdOutlineFolderCopy /></div>
     <p className='fs-4 tealcolor fstyle fw-bold hovercolor '>Project Completed</p>
-    <p className='countnumber'>    <CountUp end={2638} enableScrollSpy={true} separator="" /> +</p>
+    <p className='countnumber'>  <CountUp end={986} start={0} enableScrollSpy={true} separator="" /> +</p>
 </div>
 </div>
-<div className='col ' data-aos="zoom-in" data-aos-delay="50"
-    data-aos-duration="1800">
-<div className='text-white  counter fw-bold py-3 p-1'>
-    <div className='countericon'><LiaUsersSolid /></div>
-    <p className='fs-4 tealcolor fstyle fw-bold hovercolor'>Employer Solutions</p>
-    <p className='countnumber'> <CountUp end={2124} enableScrollSpy={true} separator="" /> +</p>
-</div>
-</div>
-<div className='col ' data-aos="zoom-in" data-aos-delay="50"
-    data-aos-duration="1800">
-<div className='text-white counter fw-bold py-3 p-1'>
+<div className='col ' data-aos="fade-right" data-aos-delay="1000"
+     data-aos-once="true" data-aos-duration="1500">
+<div className='text-white h-100 counter fw-bold py-3 p-1'>
     <div className='countericon'><FaHeadset /></div>
     <p className='fs-4 tealcolor fstyle fw-bold hovercolor'>Online Support</p>
-    <p className='countnumber'> <CountUp end={986} enableScrollSpy={true} separator="" /> +</p>
+    <p className='countnumber'> <CountUp end={1056} enableScrollSpy={true} separator="" /> +</p>
 </div>
 </div>
-<div className='col' data-aos="zoom-in" data-aos-delay="50"
-    data-aos-duration="1800">
-<div className='text-white counter fw-bold py-3 p-1'>
+<div className='col' data-aos="fade-right" data-aos-delay="1500"
+     data-aos-once="true" data-aos-duration="1800">
+<div className='text-white h-100 counter fw-bold py-3 p-1'>
     <div className='countericon'><RiEmotionHappyLine /></div>
     <p className='fs-4 tealcolor fstyle fw-bold hovercolor'>Happy Clients</p>
     <p className='countnumber'> <CountUp end={1296} enableScrollSpy={true} separator="" /> +</p>
