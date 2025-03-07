@@ -21,26 +21,26 @@ function ConatactForm() {
                                     <div className='w-100 d-lg-flex d-md-flex gap-3'>
                                         <div className='w-100 w-lg-50 w-md-50 mt-2'>
                                             <label htmlFor="" className='d-block fstyle'>Name</label>
-                                            <input type="text" name="Name" id="" placeholder='Name' className='input_Form pera rounded p-2 w-100 mt-1 fstyle text-secondary' />
+                                            <input type="text" name="Name" id="" className='input_Form pera rounded p-2 w-100 mt-1 fstyle text-secondary' />
                                         </div>
                                         <div className='w-100 w-lg-50 w-md-50 mt-2'>
                                             <label htmlFor="" className='d-block fstyle'>Phone No.</label>
-                                            <input type="number" name="Phone" id="" placeholder='Phone No.' className='input_Form pera rounded p-2 w-100 mt-1 fstyle text-secondary' />
+                                            <input type="number" name="Phone" id="" className='input_Form pera rounded p-2 w-100 mt-1 fstyle text-secondary' />
                                         </div>
                                     </div>
                                     <div className='w-100 d-lg-flex d-md-flex gap-3'>
                                         <div className='w-100 w-lg-50 w-md-50 my-2'>
                                             <label htmlFor="" className='d-block fstyle'> E-mail</label>
-                                            <input type="text" name="E-mail" id="" placeholder='E-mail' className='input_Form pera rounded p-2 w-100 mt-1 fstyle text-secondary' />
+                                            <input type="text" name="E-mail" id="" className='input_Form pera rounded p-2 w-100 mt-1 fstyle text-secondary' />
                                         </div>
                                         <div className='w-100 w-lg-50 w-md-50 my-2'>
                                             <label htmlFor="" className='d-block fstyle'>Subject</label>
-                                            <input type="text" name="Subject" id="" placeholder='Subject' className='input_Form pera rounded p-2 w-100 mt-1 fstyle text-secondary' />
+                                            <input type="text" name="Subject" id="" className='input_Form pera rounded p-2 w-100 mt-1 fstyle text-secondary' />
                                         </div>
                                     </div>
                                     <div className='w-100'>
                                         <label htmlFor="" className='d-block fstyle'>Message</label>
-                                        <textarea name="Message" id="" rows={6} placeholder='Message' className='input_Form pera rounded p-2 w-100 mt-1 fstyle text-secondary'></textarea>
+                                        <textarea name="Message" id="" rows={6} className='input_Form pera rounded p-2 w-100 mt-1 fstyle text-secondary'></textarea>
                                     </div>
                                     <div className='w-100 mt-3'>
                                         <ButtonCom btn="Send Message" />
