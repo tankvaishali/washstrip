@@ -88,6 +88,14 @@
   transform: scale(1.4) translateY(0) translateZ(0);
 }
 
+/* show.jsx btn */
+.getquots .c-button {
+  font-size: 12px !important;
+  padding: 10px !important;
+}
+
+/* show.jsx btn */
+
 /* Button css end*/
 
 
