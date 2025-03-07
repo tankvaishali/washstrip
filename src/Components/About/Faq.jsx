@@ -5,16 +5,16 @@ import { FaPills } from 'react-icons/fa'
 function Faq() {
     return (
         <>
-            <div className='container my-5'>
-                <div className='row d-flex align-items-center align-content-center'>
-                    <div className='col-12 col-lg-6 p-4'>
+            <div className='container'>
+                <div className='row d-flex justify-content-center align-content-center align-items-end'>
+                    <div className='col-12 col-lg-6 order-2 order-lg-1'>
                         <div className="h-100">
                             <div>
                                 <img src={require("../../Assets/images/final iamge.png")} className='img-fluid w-100 h-100 object-fit-cover' alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className='col-12 col-lg-6 p-4'>
+                    <div className='col-12 col-lg-6 mb-4 p-4 order-1 order-lg-2'>
                         <div className="h-100">
                             <div>
                                 <Titlecom ftitle={"FAQs"} title={"Your Laundry Queries, Answered!"} />
