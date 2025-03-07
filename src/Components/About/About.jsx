@@ -11,6 +11,7 @@ import Faq from './Faq';
 function About() {
   return (
     <>
+    
       <AboutUsSec />
       <MissionVision />
       <Team />
