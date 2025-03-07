@@ -45,7 +45,7 @@ function QualityAssurance() {
                     <div className="col-12 col-lg-6 p-3 p-lg-4">
                         <div className="h-100">
                             <div className='ms-auto main_qualityimg h-100'>
-                                <img src="https://kfkit.rometheme.pro/bedry/wp-content/uploads/sites/75/2023/12/woman-dry-cleaning-office-worker-using-lint-remove-6KKLT4X-e1703138122904.jpg" alt="" className='img-fluid h-100 w-100 object-fit-cover rounded-3' />
+                                <img src="https://www.ifbappliances.com/media/mageplaza/blog/post/4/1/417x250_4.png" alt="" className='img-fluid h-100 w-100 object-fit-cover rounded-3 shadow-lg' />
                             </div>
                             <div className="bg-transparent mt-3">
                                 <div className='Quality_count posdiv rounded-3 text-white p-3'>

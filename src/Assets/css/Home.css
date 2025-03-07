@@ -238,11 +238,23 @@
     background-attachment: fixed;
     box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.103);
 
-    height: 90vh;
+    /* height: 90vh; */
 }
 .box_contact{
+    margin-top: 30%;
+    width: 55%;
     font-size: 50px;
     font-weight: 900;
     box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.671);
 }
+ @media only screen and (max-width: 991px){
+    .box_contact{
+        width: 80%;
+        font-size: 30px;
+    margin-top: 50%;
+
+    }
+}
+
+
 /* homecontact end */

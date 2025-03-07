@@ -46,7 +46,7 @@ function WashStripeProductCard() {
                             <CardActions sx={{ justifyContent: 'space-between', px: 2, pb: 2 }}>
                                 <Box>
                                     <IconButton sx={{ color: '#0077B6' }} title="View Details">
-                                        <img src={require("../../Assets/images/logopngCrop.png")} height={45} width={45} className='img-fluid' />
+                                        <img src={require("../../Assets/images/logopngCrop.png")} alt="" height={45} width={45} className='img-fluid' />
                                     </IconButton>
 
                                 </Box>

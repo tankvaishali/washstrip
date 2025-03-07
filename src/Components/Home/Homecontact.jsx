@@ -1,5 +1,4 @@
 import React from 'react';
-import Titlecom from '../HOC/Titlecom';
 import ButtonCom from '../HOC/ButtonCom';
 import { Link } from 'react-router-dom';
 
@@ -8,11 +7,11 @@ function Homecontact() {
    <>
    <div className="homecontact">
     <div className="container d-flex justify-content-center align-content-center align-items-end h-100">
-<div className="box_contact p-5 mx-auto" style={{width:"55%"}}>
-    <div className='text-white text-center p-5 fstyle'>
+<div className="box_contact p-3 mx-auto" >
+    <div className='text-white text-center p-2 p-lg-5 fstyle'>
     New To Kind Laundry ? Start Here
     </div>
-    <p className='text-white pera text-center px-4 fw-medium'>
+    <p className='text-white pera text-center px-2 px-md-4 fw-medium'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, odio. Officiis nemo sit rerum iure alias consectetur facilis iste omnis.
     </p>
     <div className='mx-auto text-center my-4'>
