@@ -20,7 +20,14 @@
 .Conatct_menu {
   transition: all 0.4s ease-in-out;
 }
-.Conatct_menu:hover {
+.con_mainMenu:hover .Conatct_menu {
   color: var(--green) !important;
+}
+.Contact_icon {
+  display: inline-block;
+  transition: transform 0.5s ease-in-out;
+}
+.con_mainMenu:hover .Contact_icon {
+  transform: rotateY(360deg) !important;
 }
 /* ConatactForm end */

@@ -21,26 +21,26 @@ function ConatactForm() {
                                     <div className='w-100 d-lg-flex d-md-flex gap-3'>
                                         <div className='w-100 w-lg-50 w-md-50 mt-2'>
                                             <label htmlFor="" className='d-block fstyle'>Name</label>
-                                            <input type="text" name="Name" id="" className='input_Form rounded py-1 px-2 w-100 mt-1 fstyle text-secondary' />
+                                            <input type="text" name="Name" id="" placeholder='Name' className='input_Form pera rounded p-2 w-100 mt-1 fstyle text-secondary' />
                                         </div>
                                         <div className='w-100 w-lg-50 w-md-50 mt-2'>
                                             <label htmlFor="" className='d-block fstyle'>Phone No.</label>
-                                            <input type="number" name="Phone" id="" className='input_Form rounded py-1 px-2 w-100 mt-1 fstyle text-secondary' />
+                                            <input type="number" name="Phone" id="" placeholder='Phone No.' className='input_Form pera rounded p-2 w-100 mt-1 fstyle text-secondary' />
                                         </div>
                                     </div>
                                     <div className='w-100 d-lg-flex d-md-flex gap-3'>
                                         <div className='w-100 w-lg-50 w-md-50 my-2'>
                                             <label htmlFor="" className='d-block fstyle'> E-mail</label>
-                                            <input type="text" name="E-mail" id="" className='input_Form rounded py-1 px-2 w-100 mt-1 fstyle text-secondary' />
+                                            <input type="text" name="E-mail" id="" placeholder='E-mail' className='input_Form pera rounded p-2 w-100 mt-1 fstyle text-secondary' />
                                         </div>
                                         <div className='w-100 w-lg-50 w-md-50 my-2'>
                                             <label htmlFor="" className='d-block fstyle'>Subject</label>
-                                            <input type="text" name="Subject" id="" className='input_Form rounded py-1 px-2 w-100 mt-1 fstyle text-secondary' />
+                                            <input type="text" name="Subject" id="" placeholder='Subject' className='input_Form pera rounded p-2 w-100 mt-1 fstyle text-secondary' />
                                         </div>
                                     </div>
                                     <div className='w-100'>
                                         <label htmlFor="" className='d-block fstyle'>Message</label>
-                                        <textarea name="Message" id="" rows={6} className='input_Form rounded py-1 px-2 w-100 mt-1 fstyle text-secondary'></textarea>
+                                        <textarea name="Message" id="" rows={6} placeholder='Message' className='input_Form pera rounded p-2 w-100 mt-1 fstyle text-secondary'></textarea>
                                     </div>
                                     <div className='w-100 mt-3'>
                                         <ButtonCom btn="Send Message" />
@@ -63,17 +63,17 @@ function ConatactForm() {
                                     <div style={{ border: "1px dashed whitesmoke" }}></div>
                                 </div>
                                 <div>
-                                    <div className='text-white my-3'>
-                                        <div className='fstyle fs-3 fw-semibold mb-1'><FaLocationDot /> Address</div>
-                                        <Link to={""} className='Conatct_menu pera fs-6 text-decoration-none text-white'><div style={{ marginLeft: "31px" }}>Plot No. 1, Shop No. 5, Ground Floor, Shaktinagar Co. Op. Housing Society, Near Kantareswar Mahadev Temple Katargam, Surat – 395004, Gujarat.</div></Link>
+                                    <div className='con_mainMenu text-white my-3'>
+                                        <div className='fstyle fs-3 fw-semibold mb-1'><FaLocationDot className='Contact_icon' /> Address</div>
+                                        <Link to={""} className='Conatct_menu pera text-decoration-none text-white'><div style={{ marginLeft: "31px" }}>Plot No. 1, Shop No. 5, Ground Floor, Shaktinagar Co. Op. Housing Society, Near Kantareswar Mahadev Temple Katargam, Surat – 395004, Gujarat.</div></Link>
                                     </div>
-                                    <div className='text-white'>
-                                        <div className='fstyle fs-3 fw-semibold mb-1'><FaMobile /> Phone No.</div>
-                                        <Link to={""} className='Conatct_menu pera fs-6 text-decoration-none text-white'><div style={{ marginLeft: "31px" }}>(+91) 12345 67890</div></Link>
+                                    <div className='con_mainMenu text-white'>
+                                        <div className='fstyle fs-3 fw-semibold mb-1'><FaMobile className='Contact_icon' /> Phone No.</div>
+                                        <Link to={""} className='Conatct_menu pera text-decoration-none text-white'><div style={{ marginLeft: "31px" }}>(+91) 12345 67890</div></Link>
                                     </div>
-                                    <div className='text-white my-3'>
-                                        <div className='fstyle fs-3 fw-semibold mb-1'><IoMail /> E-mail</div>
-                                        <Link to={""} className='Conatct_menu pera fs-6 text-decoration-none text-white'><div style={{ marginLeft: "31px" }}>abc123@gmail.com</div></Link>
+                                    <div className='con_mainMenu text-white my-3'>
+                                        <div className='fstyle fs-3 fw-semibold mb-1'><IoMail className='Contact_icon' /> E-mail</div>
+                                        <Link to={""} className='Conatct_menu pera text-decoration-none text-white'><div style={{ marginLeft: "31px" }}>abc123@gmail.com</div></Link>
                                     </div>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@ function ConatactForm() {
 
             {/* Map */}
             <div className='container'>
-                <div className='my-5'>
+                <div className='mb-5 pb-4'>
                     <iframe title='google map' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29752.700882695055!2d72.8291723!3d21.228374199999998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fdfc718eb4b%3A0xcf5efb27dfe048c5!2sBelpatra%20Pharmachem!5e0!3m2!1sen!2sin!4v1740025356298!5m2!1sen!2sin" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='shadow-lg'></iframe>
                 </div>
             </div>

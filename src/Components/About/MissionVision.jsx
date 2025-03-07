@@ -35,14 +35,14 @@ function MissionVision() {
                 <div className='container'>
                     <div className='row mainViMiSec'>
                         <div className='col-12 col-lg-6 col-md-6'>
-                            <div className='Main_ViMi_box shadow bg-white rounded-3 p-4 mb-4'>
+                            <div className='Main_ViMi_box shadow bg-white rounded-3 py-4 px-5 mb-4'>
                                 <div className='Vi_Mi-shadow'><HiLightBulb className='vision_mission_icon p-1' /></div>
                                 <div className='Vi-Mi_Tittle fstyle mt-4 mb-2 fs-4 fw-bold'>Our Vision</div>
                                 <div className='text-secondary pera' style={{ wordBreak: "break-all" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
                             </div>
                         </div>
                         <div className='col-12 col-lg-6 col-md-6'>
-                            <div className='Main_ViMi_box shadow bg-white rounded-3 p-4  mb-4'>
+                            <div className='Main_ViMi_box shadow bg-white rounded-3 py-4 px-5  mb-4'>
                                 <div className='Vi_Mi-shadow'><MdDiamond className='vision_mission_icon p-1' /></div>
                                 <div className='Vi-Mi_Tittle fstyle mt-4 mb-2 fs-4 fw-bold'>Our Mission</div>
                                 <div className='text-secondary pera' style={{ wordBreak: "break-all" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
