@@ -7,10 +7,10 @@ import Titlecom from '../HOC/Titlecom'
 function QualityAssurance() {
 
     const progressBars = [
-        { label: "Eco-Conscious Cleaning", percentages: "99%", percentage: 99 },
+        { label: "Eco-Conscious Cleaning", percentages: "98%", percentage: 98 },
         { label: "Specialty Fabric Care", percentages: "90%", percentage: 90 },
         { label: "Non-Toxic Stain Removal", percentages: "95%", percentage: 95 },
-        { label: "Carbon-Neutral Delivery", percentages: "80%", percentage: 80 },
+        { label: "Low-Waste", percentages: "100%", percentage: 100 },
     ];
 
     const progressRefs = useRef([]);
@@ -42,7 +42,7 @@ function QualityAssurance() {
         <>
             <div className='container my-5 py-5'>
                 <div className='row'>
-                    <div className="col-12 col-lg-6 p-3 p-lg-4">
+                    <div className="col-12 col-lg-6 p-3 p-lg-4" data-aos="fade-right" data-aos-duration="1500" data-aos-once="true">
                         <div className="h-100">
                             <div className='ms-auto main_qualityimg h-100'>
                                 <img src="https://www.ifbappliances.com/media/mageplaza/blog/post/4/1/417x250_4.png" alt="" className='img-fluid h-100 w-100 object-fit-cover rounded-3 shadow-lg' />
@@ -50,10 +50,10 @@ function QualityAssurance() {
                             <div className="bg-transparent mt-3">
                                 <div className='Quality_count posdiv rounded-3 text-white p-3'>
                                     <div className='d-flex fstyle' style={{ gap: "20px" }}>
-                                        <h1 style={{ letterSpacing: "2px" }}><CountUp start={0} end={25} duration={3.5} />+</h1>
+                                        <h1 style={{ letterSpacing: "2px" }}>0<CountUp start={0} end={3} duration={3.5} />+</h1>
                                         <div className='fw-bold'>Year of <div>Experience </div></div>
                                     </div>
-                                    <div className='pera mt-2 mb-3' style={{ wordBreak: "break-all" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet laudantium possimus impedit, eum corporis veritatis?</div>
+                                    <div className='pera mt-2 mb-3' style={{ wordBreak: "break-all" }}>we believe in delivering a powerful clean, eco-friendly convenience, and exceptional quality because you deserve the best</div>
                                     <div>
                                         <Link to={"/contact"} className='Quality_contact_redirect text-white text-decoration-none fw-semibold fstyle d-flex align-items-center'><IoIosArrowDroprightCircle className='fs-5 me-2' /> Contact Us</Link>
                                     </div>
@@ -66,7 +66,7 @@ function QualityAssurance() {
                             <div>
                                 <Titlecom ftitle={"Quality Assurance"} title={"Your Satisfaction Is Our Commitment."} />
                             </div>
-                            <div className='text-secondary pera my-2'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+                            <div className='text-secondary pera my-2'> At Washstrip, we believe in delivering a powerful clean, Easy to use, and works in all machines</div>
                             <div className="pt-1">
                                 {progressBars.map((bar, index) => (
                                     <div key={index} className="mb-3 text-dark">
