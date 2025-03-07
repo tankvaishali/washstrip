@@ -1,11 +1,13 @@
 import React from 'react'
 import HOC from '../HOC/Hoc'
+import "../../Assets/css/Howto.css";
+import FollowStep from './FollowStep'
 
 function Howto() {
   return (
-    <div>
-      {/* <img src={require("../../../Assets/images/")} alt="" /> */}
-    </div>
+    <>
+      <FollowStep />
+    </>
   )
 }
 

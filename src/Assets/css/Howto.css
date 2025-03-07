@@ -1,0 +1,39 @@
+/* FollowStep start */
+.FollowStep_bg {
+  width: 100%;
+  height: auto;
+  background-image: url("../images/product_bg_image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Follow_letter_teal,
+.Follow_letter_green {
+  width: 65px;
+  height: 65px;
+  background-color: var(--teal);
+  border: 5px solid white;
+}
+.Follow_Tittle_teal,
+.Follow_Tittle_green {
+  background-color: var(--teal);
+  border-radius: 15px 0px 15px 0px;
+}
+.Follow_letter_green,
+.Follow_Tittle_green {
+  background-color: var(--green);
+}
+.Follow_img {
+  min-height: 280px;
+  border: 5px solid white !important;
+  overflow: hidden;
+}
+.Follow_img img {
+  width: 100%;
+  height: 280px;
+  transition: all 0.3s ease-in-out;
+}
+.Follow_img:hover img {
+  transform: scale(0.9);
+}
+/* FollowStep end */
