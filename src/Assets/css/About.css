@@ -1,51 +1,15 @@
 /* AboutUsSec start */
-.image-wrapper {
-  width: 100%;
-  height: auto !important;
-  display: flex;
-  position: relative;
-}
-.main-img {
-  width: 70%;
-  height: 100%;
-}
-.overlay-img {
-  width: 55%;
-  height: 80%;
-  top: 45%;
-  left: 0px;
-  position: absolute;
-  border: 10px solid white;
-}
-.play-button {
-  width: 45%;
-  position: absolute;
-  bottom: -100px;
-  right: 0px;
-  background: var(--teal);
-  padding: 10px 15px;
-  flex-direction: column;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  z-index: 3;
+.main_about_us_sec {
+  margin: 130px 0px 50px 0px;
 }
 .about_icon {
   color: var(--teal);
-}
-@media only screen and (max-width: 991px) {
-  .media_padding {
-    padding-top: 130px !important;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .media_padding {
-    padding-top: 90px !important;
-  }
 }
 /* AboutUsSec end */
 
 /* Team start */
 .our_team_bg {
-  margin-top: 100px;
+  margin-top: -180px;
   width: 100%;
   height: auto;
   background-image: url("../images/form_bg.jpg");
@@ -142,12 +106,12 @@
 
 /* MissionVision start */
 .main_vi_mi {
-  padding: 100px 10px 100px 10px;
+  padding: 100px 10px 150px 10px;
 }
 .vision_mision_bg {
   width: 100%;
   height: auto;
-  background-image: url("https://newkit.moxcreative.com/hauske/wp-content/uploads/sites/5/2022/07/young-woman-taking-laundry-from-washing-machine-and-smiling-at-camera.jpg");
+  background-image: url("https://www.armandhammer.com/-/media/aah/feature/articles/laundry-articles/header-clean-fabric.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -155,7 +119,8 @@
   z-index: 1 !important;
 }
 .mainViMiSec {
-  margin-top: -135px;
+  background: transparent;
+  margin-top: -160px;
   z-index: 10 !important;
 }
 .play_Circle_icon {
@@ -176,108 +141,68 @@
     box-shadow: 0 0 5px 2px currentColor;
   }
 }
+.Vi_Mi-shadow{
+  width: 20%;
+  height: 20%;
+  border: 1px solid red;
+  text-align: center;
+}
 .vision_mission_icon {
   color: var(--teal);
+  display: inline-block;
+  transition: transform 0.5s ease-in-out;
+}
+.Vi-Mi_Tittle {
+  transition: all 0.4s ease-in-out !important;
+}
+.Main_ViMi_box:hover .vision_mission_icon {
+  transform: rotateY(360deg) !important;
+}
+.Main_ViMi_box:hover .Vi-Mi_Tittle {
+  color: var(--green) !important;
 }
 /* MissionVision end */
+
 /* testimoial start */
 .testimonial_bg {
-  background-image: url("https://i.ytimg.com/vi/Sq6c191AmSg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLARAhkl2veqNeYY-sKRmmWii6LZIA");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  box-shadow: inset 0px 0px 0px 1500px rgb(0 140 141 / 82%);
+  width: 100%;
+  background-image: url("../images/product_bg_image.jpg");
 }
-
-.combg_color {
-  padding-bottom: 190px !important;
-
+.testi_Client_img {
+  border: 1px solid var(--teal);
+  box-shadow: 0px 0px 6px 3px rgba(0, 141, 141, 0.689);
 }
-
-.custom-dots .slick-dots li button:before {
-  font-size: 16px;
-  /* Increase font size to make dots larger */
-  width: 18px;
-  /* Set width */
-  height: 18px;
-  /* Set height */
+.testi_review {
+  min-height: 90px !important;
 }
-
-.custom-dots .slick-dots li.slick-active button:before {
-  color: rgb(0, 56, 56)!important;
-}
-
-.custom-dots .slick-dots li button:before {
-  font-size: 16px;
-  width: 18px;
-  height: 18px;
-}
-
-.slick-dots li button:before {
-  color: white !important;
-  opacity: 1;
-}
-
-
-
-.comments_cardhover {
-  transition: all 0.3s ease-in-out;
-}
-
-.comments_cardhover:hover {
-  transform: translateY(-15px);
-}
-
-.main-card {
-  height: 280px;
-}
-
-.custom-card {
-  height: 55% !important;
-}
-
-.iconquote {
-  color: rgba(0, 94, 94, 0.377);
-}
-
-@media (max-width: 1200px) {
-  .custom-card {
-      height: 60% !important;
-  }
-
-  .main-card {
-      height: 310px !important;
+@media only screen and (max-width: 992px) {
+  .testi_review {
+    min-height: 120px !important;
   }
 }
-
-@media (max-width: 767px) {
-  .custom-card {
-      height: 70% !important;
-  }
-
-  .main-card {
-      height: 390px !important;
+@media only screen and (max-width: 768px) {
+  .testi_review {
+    min-height: 80px !important;
   }
 }
-
-@media (max-width: 700px) {
-  .custom-card {
-      height: 50% !important;
-  }
-
-  .main-card {
-      height: 250px !important;
-  }
-}
-
-@media (max-width: 400px) {
-  .custom-card {
-      height: 60% !important;
-  }
-
-  .main-card {
-      height: 300px !important;
-  }
-}
-
 /* testimoial end */
+
+/* Faq start */
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.addicon {
+  background-color: var(--teal) !important;
+  border-radius: 10px !important;
+}
+.accordion-button:not(.collapsed) {
+  border-radius: 10px 10px 0px 0px !important;
+}
+.accordion-button::after {
+  filter: brightness(0) invert(1);
+}
+.accordion-body {
+  background-color: whitesmoke;
+  border-radius: 0px 0px 10px 10px;
+}
+/* Faq end */
