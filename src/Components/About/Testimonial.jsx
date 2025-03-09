@@ -161,7 +161,7 @@ function Testimonial() {
             id: 1,
             name: "Nikhil Rana",
             title: "Our Client",
-            review: "I am thrilled with the orthotics I purchased. They have significantly reduced my back pain, allowing me to walk longer distances comfortably. Thank you so much for providing such effective relief!",
+            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatibus nihil, reiciendis minus nisi totam aperiam id quia ipsam deleniti laboriosam cum ad molestias doloribus.",
             image: "https://kitpro.site/spinzy/wp-content/uploads/sites/319/2025/01/14.jpg",
             rating: 5
         },
@@ -169,7 +169,7 @@ function Testimonial() {
             id: 2,
             name: "Neha Shah",
             title: "Our Client",
-            review: "The prosthetic device I received exceeded my expectations in terms of comfort and functionality. The team here really listens to your concerns and delivers solutions that truly make a difference.",
+            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatibus nihil, reiciendis minus nisi totam aperiam id quia ipsam deleniti laboriosam cum ad molestias doloribus.",
             image: "https://kitpro.site/spinzy/wp-content/uploads/sites/319/2025/01/12.jpg",
             rating: 3.5
         },
@@ -177,7 +177,7 @@ function Testimonial() {
             id: 3,
             name: "Raj Patel",
             title: "Our Client",
-            review: "The prosthetics and orthotics service provided here is exceptional. They prioritize patient comfort and functionality, ensuring customized solutions that meet individual needs with precision and care.",
+            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatibus nihil, reiciendis minus nisi totam aperiam id quia ipsam deleniti laboriosam cum ad molestias doloribus.",
             image: "https://kitpro.site/spinzy/wp-content/uploads/sites/319/2025/01/14.jpg",
             rating: 4
         },
@@ -185,7 +185,7 @@ function Testimonial() {
             id: 4,
             name: "Kiran Patel",
             title: "Our Client",
-            review: "The prosthetic limb I received here has significantly improved my mobility and quality of life. The team's dedication and expertise are truly commendable, ensuring a seamless experience from consultation to fitting.",
+            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatibus nihil, reiciendis minus nisi totam aperiam id quia ipsam deleniti laboriosam cum ad molestias doloribus.",
             image: "https://kitpro.site/spinzy/wp-content/uploads/sites/319/2025/01/12.jpg",
             rating: 4.5
         }
