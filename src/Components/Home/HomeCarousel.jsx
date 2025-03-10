@@ -36,7 +36,7 @@ function HomeCarousel() {
                     </div>
                     <div class="col-md-4 feature-box shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">  
                         <div class="feature-icon" style={{width:100,height:100}}><img src="https://cdn-icons-png.flaticon.com/512/5008/5008990.png" alt="" className='img-fluid w-100 h-100 object-fit-contain'/></div>
-                        <h5 className='fstyle'><strong>100% Eco Friendly</strong></h5>
+                        <h5 className='fstyle'><strong> Eco Friendly</strong></h5>
                         <p className='pera fw-medium'>Say goodbye to plastic waste with WASHSTRIP Detergent Sheets.</p>
                     </div>
                     <div class="col-md-4 feature-box shadow-lg" data-aos="flip-right" data-aos-duration="1500" data-aos-once="true">
