@@ -8,16 +8,19 @@ function Header() {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
   const [bgColor, setBgColor] = useState('transparent');
-  const [fontColor, setFontColor] = useState('white'); // Initial font color
+  const [fontColor, setFontColor] = useState('white');
+  const [boxShadow, setBoxShadow] = useState('none');
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
         setBgColor('white');
-        setFontColor('black'); // Change font color to black when bg is white
+        setFontColor('black');
+        setBoxShadow('0px 4px 10px rgba(0, 0, 0, 0.1)');
       } else {
         setBgColor('transparent');
-        setFontColor('white'); // Keep font white when bg is transparent
+        setFontColor('white');
+        setBoxShadow('none');
       }
     };
 
@@ -26,7 +29,8 @@ function Header() {
   }, []);
 
   return (
-    <nav className="fstyle navbar navbar-expand-md navbar-light fixed-top px-3 py-0 ps-0 pe-0 align-items-start" style={{ backgroundColor: bgColor, transition: "background-color 0.3s ease-in-out" }}>
+    <nav className="fstyle navbar navbar-expand-md navbar-light fixed-top px-3 py-0 ps-0 pe-0 align-items-start" 
+      style={{ backgroundColor: bgColor, transition: "background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out", boxShadow }}>
       <Link className="navbar-brand bg-light px-3 rounded-start-0 rounded-bottom-circle me-0" to="/" style={{ boxShadow: "1px 1px 15px black" }}>
         <img src={require('../../Assets/images/logopngCropR.png')} alt="Logo" height={100} width={100} className="img-fluid" />
       </Link>
@@ -65,23 +69,24 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="navbar-collapse d-md-block d-none justify-content-end pb-1" id="navbarNav" style={{ backgroundColor: bgColor, transition: "background-color 0.3s ease-in-out" }}>
+      <div className="navbar-collapse d-md-block d-none justify-content-end pb-1" id="navbarNav">
         <ul className="navbar-nav pt-3 px-3 ulbg" >
           <li className="nav-item">
-            <Link className={`nav-link px-4 mx-1 ${location.pathname === "/" ? "active" : ""}`} to="/" style={{ color: fontColor }}
-            ><FaHome className='fs-4' style={{ color: fontColor }} /> </Link>
+            <Link className={`nav-link px-4 mx-1 ${location.pathname === "/" ? "active" : ""}`} to="/" style={{ color: fontColor }}>
+              <FaHome className='fs-4' style={{ color: fontColor }} />
+            </Link>
           </li>
           <li className="nav-item">
-            <Link className={`nav-link px-4 mx-1  fs-6 ${location.pathname === "/about" ? "active" : ""}`} to="/about" style={{ color: fontColor }} >About</Link>
+            <Link className={`nav-link px-4 mx-1 fs-6 ${location.pathname === "/about" ? "active" : ""}`} to="/about" style={{ color: fontColor }}>About</Link>
           </li>
           <li className="nav-item">
-            <Link className={`nav-link px-4 mx-1  fs-6 ${location.pathname === "/howto" ? "active" : ""}`} to="/howto" style={{ color: fontColor }} >How To</Link>
+            <Link className={`nav-link px-4 mx-1 fs-6 ${location.pathname === "/howto" ? "active" : ""}`} to="/howto" style={{ color: fontColor }}>How To</Link>
           </li>
           <li className="nav-item">
-            <Link className={`nav-link px-4 mx-1  fs-6 ${location.pathname === "/product" ? "active" : ""}`} to="/product" style={{ color: fontColor }} >Product</Link>
+            <Link className={`nav-link px-4 mx-1 fs-6 ${location.pathname === "/product" ? "active" : ""}`} to="/product" style={{ color: fontColor }}>Product</Link>
           </li>
           <li className="nav-item">
-            <Link className={`nav-link px-4 mx-1  fs-6 ${location.pathname === "/contact" ? "active" : ""}`} to="/contact" style={{ color: fontColor }} >Contact</Link>
+            <Link className={`nav-link px-4 mx-1 fs-6 ${location.pathname === "/contact" ? "active" : ""}`} to="/contact" style={{ color: fontColor }}>Contact</Link>
           </li>
         </ul>
       </div>

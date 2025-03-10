@@ -36,8 +36,15 @@ function Homeproduct() {
 <div className='text-white text-center d-flex flex-column justify-content-center align-items-center'>
   <Titlecom ftitle="Our Products" title="How Many Washstrip Sheets Do You Need?"/>
 </div>
-<p className='pera text-secondary text-center pt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ab quod suscipit impedit exercitationem ut nisi culpa nesciunt velit ea! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dolorum assumenda et nostrum veniam nisi illo, velit quia consectetur delectus.
+<p className='pera text-secondary text-center fw-bold pt-2 mb-1'>Using Washstrip Detergent Sheets is simple! Just follow this easy guide to get the perfect clean every time:
 </p>
+<div className='text-secondary fw-bold text-center d-flex justify-content-center align-items-center'> 
+  <div className='ps-1'>🧺 Small Load – ½ sheet</div>
+  <div className='ps-1'>
+👕 Regular Load – 1 sheet
+</div>
+  <div className='ps-1'>👚 Large or Heavily Soiled Load – 2 sheets</div>
+</div>
 </div>
 
 
