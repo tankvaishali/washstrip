@@ -144,7 +144,7 @@ const ProductDetails = () => {
                                 <div class="modal-body modalbg">
                                     <form className="px-4 pt-4">
                                         <div class="row mb-4" >
-                                            <div class="col">
+                                            <div class="col-sm-6 col-12 mb-sm-0 mb-4">
                                                 <div class="input-group p-2  bg-opacity-50" style={{ boxShadow: '5px 5px 10px var(--teal)', backgroundColor: "rgb(223 239 239 / 68%)", }}>
                                                     <span class="input-group-text text-dark bg-transparent border-0">
                                                         <FaUserAlt />
@@ -152,7 +152,7 @@ const ProductDetails = () => {
                                                     <input type="text" class="form-control border-0 bg-transparent" placeholder="First_Name" />
                                                 </div>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-sm-6 col-12">
                                                 <div class="input-group p-2  bg-opacity-50" style={{ boxShadow: '5px 5px 10px var(--teal)', backgroundColor: "rgb(223 239 239 / 68%)", }}>
                                                     <span class="input-group-text text-dark bg-transparent border-0">
                                                         <FaUserAlt />
