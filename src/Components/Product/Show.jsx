@@ -1,9 +1,8 @@
 import * as React from 'react';
 import { Box, Card, CardActions, CardContent, CardMedia, IconButton, styled, Typography } from '@mui/material';
 import { BsWhatsapp } from 'react-icons/bs';
-
-import ButtonCom from '../HOC/ButtonCom';
 import { Link } from 'react-router-dom';
+import ButtonCom from '../HOC/ButtonCom';
 import { Data } from './Productdata';
 
 const ProductCard = styled(Card)(({ theme }) => ({
@@ -21,6 +20,12 @@ const ProductCard = styled(Card)(({ theme }) => ({
 }));
 
 function WashStripeProductCard() {
+    const handleWhatsAppClick = (product) => {
+        const message = `Hello, I am interested in the product:\n*${product.title}*\n${product.description}\nPrice: ${product.price}\nCan you provide more details?`;
+        const whatsappURL = `https://wa.me/?text=${encodeURIComponent(message)}`;
+        window.open(whatsappURL, '_blank');
+    };
+
     return (
         <div className="container-xxl my-4">
             <div className='row justify-content-center justify-content-md-start'>
@@ -47,17 +52,20 @@ function WashStripeProductCard() {
                             </CardContent>
                             <CardActions sx={{ justifyContent: 'space-between', px: 2, pb: 2 }}>
                                 <Box>
-                                    <IconButton sx={{ color: '#0077B6' }} title="View Details">
+                                    <div sx={{ color: '#0077B6' }} title="View Details">
                                         <img src={require("../../Assets/images/logopngCrop.png")} alt="" height={45} width={45} className='img-fluid' />
-                                    </IconButton>
-
+                                    </div>
                                 </Box>
                                 <div className='getquots'>
                                     <Link to={`/product/${i.id}`}>
                                         <ButtonCom btn="More Info" />
                                     </Link>
                                 </div>
-                                <IconButton sx={{ bgcolor: '#25D366', color: 'white', ml: 1, borderRadius: '12px' }}>
+                                <IconButton 
+                                    className='wphover' 
+                                    sx={{ bgcolor: '#25D366', color: 'white', ml: 1, borderRadius: '12px' }}
+                                    onClick={() => handleWhatsAppClick(i)}
+                                >
                                     <BsWhatsapp title='Inquiry Via Whatsapp' />
                                 </IconButton>
                             </CardActions>

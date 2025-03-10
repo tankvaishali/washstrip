@@ -28,6 +28,20 @@ function Homeproduct() {
     { img: "https://www.housedigest.com/img/gallery/the-laundry-sorting-hack-that-prolong-the-life-of-your-detergent/intro-1696600307.jpg" },
     { img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3aGudzW9UzcBvPcwwBbkQV4adJHLwgRPkuzU4BMK5YUgJ1NVSIFcM8JyG2u003stnKXg&usqp=CAU" },
   ];
+  let heading=[
+    {
+      img:require("../../Assets/images/small_load_png.png"),
+      tittle:"Small Load – ½ sheet",
+    },
+    {
+      img:"https://cdn-icons-png.flaticon.com/512/3531/3531818.png",
+      tittle:"Regular Load – 1 sheet",
+    },
+    {
+      img:"https://cdn-icons-png.flaticon.com/512/5654/5654668.png",
+      tittle:" Large or Heavily Soiled Load – 2 sheets",
+    },
+  ]
   return (
     <>
     <div className='homeproduct_bg ' >
@@ -38,12 +52,22 @@ function Homeproduct() {
 </div>
 <p className='pera text-secondary text-center fw-bold pt-2 mb-1'>Using Washstrip Detergent Sheets is simple! Just follow this easy guide to get the perfect clean every time:
 </p>
-<div className='text-secondary fw-bold text-center d-flex justify-content-center align-items-center'> 
-  <div className='ps-1'>🧺 Small Load – ½ sheet</div>
-  <div className='ps-1'>
-👕 Regular Load – 1 sheet
-</div>
-  <div className='ps-1'>👚 Large or Heavily Soiled Load – 2 sheets</div>
+<div className='text-white fw-bold text-center d-block d-lg- my-2 d-lg-flex  justify-content-center align-items-center'> 
+
+{
+  heading.map((x,i)=>{
+    return(
+
+      <div className='ps-1 d-flex align-items-center'>
+    <div style={{width:50}} className='ms-1'>
+    <img src={x.img} alt="" className='img-fluid ' />
+    </div>
+    <div className='ps-1'> {x.tittle}</div>
+    </div>
+    )
+    
+  })
+}
 </div>
 </div>
 

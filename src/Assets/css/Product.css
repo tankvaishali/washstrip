@@ -132,7 +132,13 @@
 .button:hover {
     background-color: #3a56d4;
 }
-
+.wphover{
+    transition: all 0.3s ease-in-out !important;
+  }
+  .wphover:hover{
+  box-shadow: 0px 0px 8px 8px rgba(41, 180, 41, 0.521);
+  color:green;
+  }
 .buttonIcon {
     width: 18px;
     height: 18px;

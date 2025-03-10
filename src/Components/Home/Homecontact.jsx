@@ -9,7 +9,7 @@ function Homecontact() {
     <div className="container d-flex justify-content-center align-content-center align-items-end h-100">
 <div className="box_contact p-3 mx-auto" >
     <div className='text-white text-center p-2 p-lg-5 fstyle'>
-    New To Kind Laundry ? Start Here
+    New To Step Laundry ? Start Here
     </div>
     <p className='text-white pera text-center px-2 px-md-4 fw-medium'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, odio. Officiis nemo sit rerum iure alias consectetur facilis iste omnis.
