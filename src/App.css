@@ -23,12 +23,14 @@
   width: fit-content;
 }
 
-.tealcolor{
+.tealcolor {
   color: var(--teal);
- }
- .greencolor{
+}
+
+.greencolor {
   color: var(--green);
- }
+}
+
 /* Button css start*/
 .c-button {
   color: #000;
@@ -93,7 +95,8 @@
   transform: scale(1.4) translateY(0) translateZ(0);
 }
 
-/* show.jsx btn */
+/* Show.jsx btn */
+/* Details.jsx btn */
 .getquots .c-button {
   font-size: 12px !important;
   padding: 10px !important;

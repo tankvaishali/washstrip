@@ -3,6 +3,8 @@ import { Box, Card, CardActions, CardContent, CardMedia, IconButton, styled, Typ
 import { BsWhatsapp } from 'react-icons/bs';
 
 import ButtonCom from '../HOC/ButtonCom';
+import { Link } from 'react-router-dom';
+import { Data } from './Productdata';
 
 const ProductCard = styled(Card)(({ theme }) => ({
     maxWidth: 360,
@@ -50,22 +52,10 @@ function WashStripeProductCard() {
                                     </IconButton>
 
                                 </Box>
-                                {/* <Button
-                                    variant="contained"
-                                    sx={{
-                                        bgcolor: '#0077B6',
-                                        color: 'white',
-                                        borderRadius: '20px',
-                                        padding: '6px 16px',
-                                        fontWeight: 'bold',
-                                        textTransform: 'none',
-                                        '&:hover': { bgcolor: '#005A8D' }
-                                    }}
-                                >
-                                    Get Quotes
-                                </Button> */}
                                 <div className='getquots'>
-                                    <ButtonCom btn="Get Quotes" />
+                                    <Link to={`/product/${i.id}`}>
+                                        <ButtonCom btn="More Info" />
+                                    </Link>
                                 </div>
                                 <IconButton sx={{ bgcolor: '#25D366', color: 'white', ml: 1, borderRadius: '12px' }}>
                                     <BsWhatsapp title='Inquiry Via Whatsapp' />
@@ -80,36 +70,3 @@ function WashStripeProductCard() {
 }
 
 export default WashStripeProductCard;
-
-const Data = [
-    {
-        img: require("../../Assets/images/about us_image_copy.jpg"),
-        title: 'Ultra Clean Laundry Detergent',
-        description: "Experience deep cleaning with eco-friendly, fabric-safe ingredients.",
-        price: "₹499.00",
-    },
-    {
-        img: require("../../Assets/images/extracaro.png"),
-        title: 'Ultra Clean Laundry Detergent',
-        description: "Experience deep cleaning with eco-friendly, fabric-safe ingredients.",
-        price: "₹499.00",
-    },
-    {
-        img: require("../../Assets/images/form_bg.jpg"),
-        title: 'Ultra Clean Laundry Detergent',
-        description: "Experience deep cleaning with eco-friendly, fabric-safe ingredients.",
-        price: "₹499.00",
-    },
-    {
-        img: require("../../Assets/images/logojpg.jpg"),
-        title: 'Ultra Clean Laundry Detergent',
-        description: "Experience deep cleaning with eco-friendly, fabric-safe ingredients.",
-        price: "₹499.00",
-    },
-    {
-        img: require("../../Assets/images/service_img.jpg"),
-        title: 'Ultra Clean Laundry Detergent',
-        description: "Experience deep cleaning with eco-friendly, fabric-safe ingredients.",
-        price: "₹499.00",
-    },
-];

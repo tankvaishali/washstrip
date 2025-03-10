@@ -166,3 +166,43 @@
 .css-p27lx8-MuiPaper-root-MuiCard-root:hover {
     transform: translateY(0px) !important;
 }
+
+/* textarea::placeholder,
+.form-control::placeholder {
+    color: white;
+    opacity: 1;
+}*/
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.form-control {
+    border: none !important;
+}
+
+.modalbg {
+    background-image: url(../../Assets/images/logopng.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    box-shadow: inset 0px 0px 1500px 100px rgba(0, 140, 141, 1);
+}
+
+.btndetail .c-button {
+    background-color: white !important;
+}
+
+.modal-header {
+    background: rgba(0, 140, 141, 1) !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom: 0px;
+}
+
+.modal-content {
+    border-radius: 0px !important;
+}
+
+.btn-close:focus {
+    box-shadow: none !important;
+}
