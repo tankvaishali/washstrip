@@ -60,7 +60,7 @@ function Homeservice() {
    Small Strip, Big Impact
    </div>
    <p className='pera pt-1'>
-   a tiny, lightweight strip that delivers a mighty clean.
+   A tiny, lightweight strip that delivers a mighty clean.
    </p>
 </div>
 </div>

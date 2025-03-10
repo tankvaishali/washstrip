@@ -16,7 +16,7 @@ function Counter() {
      data-aos-once="true" data-aos-duration="800">
 <div className='text-white h-100 counter fw-bold py-3 p-1'>
     <div className='countericon'><FaCalendarDays /></div>
-    <p className='fs-4 tealcolor fstyle fw-bold hovercolor '>Years Of Experience</p>
+    <p className='fs-4 tealcolor fstyle fw-bold hovercolor pt-1'>Years Of Experience</p>
     <p className='countnumber'>  0<CountUp end={3} start={0} enableScrollSpy={true} separator="" /> +</p>
 </div>
 </div>
