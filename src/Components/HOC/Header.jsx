@@ -13,7 +13,7 @@ function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
+      if (window.scrollY > 100) {
         setBgColor('white');
         setFontColor('black');
         setBoxShadow('0px 4px 10px rgba(0, 0, 0, 0.1)');
@@ -29,7 +29,7 @@ function Header() {
   }, []);
 
   return (
-    <nav className="fstyle navbar navbar-expand-md navbar-light fixed-top px-3 py-0 ps-0 pe-0 align-items-start" 
+    <nav className="fstyle navbar navbar-expand-md navbar-light fixed-top px-3 py-0 ps-0 pe-0 align-items-start"
       style={{ backgroundColor: bgColor, transition: "background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out", boxShadow }}>
       <Link className="navbar-brand bg-light px-3 rounded-start-0 rounded-bottom-circle me-0" to="/" style={{ boxShadow: "1px 1px 15px black" }}>
         <img src={require('../../Assets/images/logopngCropR.png')} alt="Logo" height={100} width={100} className="img-fluid" />
