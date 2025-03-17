@@ -6,16 +6,16 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
 
-    const [isPlaying, setIsPlaying] = useState(false);
-  
-    const handlePlay = () => {
-      setIsPlaying(true);
-    };
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handlePlay = () => {
+    setIsPlaying(true);
+  };
   return (
     <>
       <div className="footer_bg overflow-hidden">
         <div className="container mt-3">
-          <div className="row g-3 pb-5 d-flex justify-content-center  border-secondary border-bottom">
+          <div className="row g-3 pb-5 d-flex justify-content-center align-items-lg-start align-items-center border-secondary border-bottom">
             <div className="col-12 col-md-6 col-lg-4 p-3 mt-0 p-lg-5 bgteal">
               <div data-aos="fade-up" data-aos-duration="1600" data-aos-once="true" >
                 <h3 className='text-white fw-bold fstyle pb-2'>
@@ -116,7 +116,7 @@ function Footer() {
                 </div>
               </div>
             </div>
-         <div className="col-12 col-md-6 col-lg-4 p-4 position-relative" data-aos="fade-up" data-aos-duration="1600" data-aos-once="true" style={{ height: "300px" }}>
+         <div className="col-12 col-md-6 col-lg-4 p-4 position-relative" style={{ height: "300px" }}>
       {isPlaying ? (
         <iframe
           key="youtube-video"
@@ -154,10 +154,10 @@ function Footer() {
       </div>
     </div>
           </div>
-        
-         <div className='text-white  text-center pera p-2'>
-         Copyright © 2025 💚 Washstrip, All rights Reserved.
-         </div>
+
+          <div className='text-white  text-center pera p-2'>
+            Copyright © 2025 💚 Washstrip, All rights Reserved.
+          </div>
         </div>
       </div>
     </>

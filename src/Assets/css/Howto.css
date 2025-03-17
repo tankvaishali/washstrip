@@ -6,6 +6,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden !important;
 }
 .Follow_letter_teal,
 .Follow_letter_green {
@@ -37,3 +38,70 @@
   transform: scale(0.9);
 }
 /* FollowStep end */
+
+/* StripBenefits start */
+.StripBenefits_bg {
+  width: 100%;
+  height: auto;
+  background-image: url("../images/product_bg.e9670402889830d8a0b0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Strip_image,
+.strip_tittle {
+  transition: all 0.4s ease-in-out;
+}
+.strip_main:hover .Strip_image {
+  transform: scale(1.1);
+}
+.strip_main:hover .strip_tittle {
+  color: var(--green) !important;
+}
+/* StripBenefits end */
+
+/* ProductStep start */
+.main_product {
+  overflow: hidden;
+  box-shadow: 0px 0px 12px 2px rgba(0, 141, 141, 0.272);
+}
+.image_wrapper_prodctStrip {
+  min-width: 30%;
+}
+.content_prodctStrip {
+  min-width: 70%;
+}
+.product_image {
+  transition: transform 0.4s ease-in-out;
+}
+.main_product:hover .product_image {
+  transform: scale(1.1);
+}
+.main_product .image_wrapper_prodctStrip {
+  position: relative;
+  overflow: hidden;
+}
+.main_product .image_wrapper_prodctStrip::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  transition: all 0.5s ease-in-out;
+}
+.main_product:hover .image_wrapper_prodctStrip::after {
+  background: rgba(0, 141, 141, 0.187);
+}
+.ProductStrip_tittle {
+  width: 100%;
+  position: relative;
+  background-color: var(--teal);
+  z-index: 10 !important;
+  border-radius: 0px 10px 0px 10px;
+  transition: all 0.3s ease-in-out;
+}
+.main_product:hover .ProductStrip_tittle {
+  background-color: var(--green) !important;
+}
+/* ProductStep end */
