@@ -7,7 +7,7 @@ import Lendingsec from '../Lendingsec';
 function Howto() {
   return (
     <>
-      <Lendingsec Page={'Howto'} />
+      <Lendingsec Page={'How to'} />
       <FollowStep />
     </>
   )

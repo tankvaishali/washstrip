@@ -6,16 +6,16 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
 
-    const [isPlaying, setIsPlaying] = useState(false);
-  
-    const handlePlay = () => {
-      setIsPlaying(true);
-    };
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handlePlay = () => {
+    setIsPlaying(true);
+  };
   return (
     <>
       <div className="footer_bg ">
         <div className="container mt-3">
-          <div className="row g-3 pb-5 d-flex justify-content-center  border-secondary border-bottom">
+          <div className="row g-3 pb-5 d-flex justify-content-center align-items-lg-start align-items-center border-secondary border-bottom">
             <div className="col-12 col-md-6 col-lg-4 p-3 mt-0 p-lg-5 bgteal">
               <div data-aos="fade-up" data-aos-duration="2000">
                 <h3 className='text-white fw-bold fstyle pb-2'>
@@ -116,48 +116,48 @@ function Footer() {
                 </div>
               </div>
             </div>
-         <div className="col-12 col-md-6 col-lg-4 p-4 position-relative" style={{ height: "300px" }}>
-      {isPlaying ? (
-        <iframe
-          key="youtube-video"
-          className="w-100 h-100 border-2 border"
-          src="https://www.youtube.com/embed/YlEzM0sOyrA?autoplay=1"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-          style={{ height: "300px" }}
-        ></iframe>
-      ) : (
-        <div
-          className="w-100 h-100 position-relative border-2 border p-2"
-        
-          style={{ cursor: "pointer", height: "300px", background: "black" }} 
-        >
-          {/* Poster (Thumbnail) */}
-          <img
-            src="https://transform-cf1.nws.ai/https%3A//cdn.thenewsroom.io/platform/story_media/1288817962/how-to-get-rid-of-static-cling-in-your-laundry-1.webp/w_1200,c_limit/"
-            alt="Video Thumbnail"
-            className="w-100 h-100 object-fit-cover rounded"
-            style={{ height: "300px", display: isPlaying ? "none" : "block" }} // 🔥 Hide instantly on play
-          />
-          {/* Play Button (Optional) */}
-          <div className="position-absolute top-50 start-50 translate-middle p-2 rounded-circle"   onClick={handlePlay} >
-            <div className="text-white bg-transparent display-3">
-              <FaPlayCircle className="play_Circle_icon bg-transparent" />
+            <div className="col-12 col-md-6 col-lg-4 p-4 position-relative" style={{ height: "300px" }}>
+              {isPlaying ? (
+                <iframe
+                  key="youtube-video"
+                  className="w-100 h-100 border-2 border"
+                  src="https://www.youtube.com/embed/YlEzM0sOyrA?autoplay=1"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  style={{ height: "300px" }}
+                ></iframe>
+              ) : (
+                <div
+                  className="w-100 h-100 position-relative border-2 border p-2"
+
+                  style={{ cursor: "pointer", height: "300px", background: "black" }}
+                >
+                  {/* Poster (Thumbnail) */}
+                  <img
+                    src="https://transform-cf1.nws.ai/https%3A//cdn.thenewsroom.io/platform/story_media/1288817962/how-to-get-rid-of-static-cling-in-your-laundry-1.webp/w_1200,c_limit/"
+                    alt="Video Thumbnail"
+                    className="w-100 h-100 object-fit-cover rounded"
+                    style={{ height: "300px", display: isPlaying ? "none" : "block" }} // 🔥 Hide instantly on play
+                  />
+                  {/* Play Button (Optional) */}
+                  <div className="position-absolute top-50 start-50 translate-middle p-2 rounded-circle" onClick={handlePlay} >
+                    <div className="text-white bg-transparent display-3">
+                      <FaPlayCircle className="play_Circle_icon bg-transparent" />
+                    </div>
+                  </div>
+                </div>
+              )}
+              <div className="text-white pera mt-1">
+                Note: This sheet can be used in both Front Load & Top Load Washing Machines.
+              </div>
             </div>
           </div>
-        </div>
-      )}
-      <div className="text-white pera mt-1">
-        Note: This sheet can be used in both Front Load & Top Load Washing Machines.
-      </div>
-    </div>
+
+          <div className='text-white  text-center pera p-2'>
+            Copyright © 2025 💚 Washstrip, All rights Reserved.
           </div>
-        
-         <div className='text-white  text-center pera p-2'>
-         Copyright © 2025 💚 Washstrip, All rights Reserved.
-         </div>
         </div>
       </div>
     </>
