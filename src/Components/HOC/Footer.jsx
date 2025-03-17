@@ -13,11 +13,11 @@ function Footer() {
     };
   return (
     <>
-      <div className="footer_bg ">
+      <div className="footer_bg overflow-hidden">
         <div className="container mt-3">
           <div className="row g-3 pb-5 d-flex justify-content-center  border-secondary border-bottom">
             <div className="col-12 col-md-6 col-lg-4 p-3 mt-0 p-lg-5 bgteal">
-              <div data-aos="fade-up" data-aos-duration="2000">
+              <div data-aos="fade-up" data-aos-duration="1600" data-aos-once="true" >
                 <h3 className='text-white fw-bold fstyle pb-2'>
                   Contact Us
                 </h3>
@@ -78,13 +78,13 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 col-lg-4">
+            <div className="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="1600" data-aos-once="true">
               <div className='w-50 h-50 mx-auto'>
                 <img src={require("../../Assets/images/logopng.png")} alt="" className='img-fluid w-100 h-100 object-fit-cover' />
               </div>
-              <p className='text-secondary pera text-center px-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, illum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore temporibus accusantium quod quo beatae amet repellendus veritatis, corporis incidunt hic.</p>
+              <p className='text-secondary fw-medium pera text-center px-3'>Getting started with WASHSTRIP is simple and hassle-free! Whether you're new to laundry or just making the switch to our eco-friendly detergent sheets, this guide will help you understand how to use them effectively. </p>
               <div className='mt-2 mt-lg-4'>
-                <div data-aos="fade-up" data-aos-duration="2000">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
                   <div className="d-flex fs-4 my-3 justify-content-center">
                     <Link
                       to={"https://www.facebook.com/people/Belpatra-Pharmachem/100082567202591/"}
@@ -116,7 +116,7 @@ function Footer() {
                 </div>
               </div>
             </div>
-         <div className="col-12 col-md-6 col-lg-4 p-4 position-relative" style={{ height: "300px" }}>
+         <div className="col-12 col-md-6 col-lg-4 p-4 position-relative" data-aos="fade-up" data-aos-duration="1600" data-aos-once="true" style={{ height: "300px" }}>
       {isPlaying ? (
         <iframe
           key="youtube-video"
