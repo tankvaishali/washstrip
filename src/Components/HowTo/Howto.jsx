@@ -9,7 +9,7 @@ import StripBenefits from './StripBenefits';
 function Howto() {
   return (
     <>
-      <Lendingsec Page={'Howto'} />
+      <Lendingsec Page={'How to'} />
       <FollowStep />
       <ProductStep />
       <StripBenefits />
