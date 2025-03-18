@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 function Lendingsec({ Page }) {
     return (
-        <section class="spikes fstyle">
-            <div class="breadcrumb-container">
+        <section className="spikes fstyle">
+            <div className="breadcrumb-container">
                 <Link to="/" className='h3 fw-normal'>Home</Link>
                 <MdKeyboardDoubleArrowRight className='ms-2 h4' />
                 {/* <MdKeyboardDoubleArrowRight className='me-2 h4' /> */}
