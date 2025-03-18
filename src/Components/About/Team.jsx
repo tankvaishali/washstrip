@@ -10,22 +10,26 @@ const teamMembers = [
     {
         name: "Williamson",
         role: "Position",
-        img: "https://bestjquery.com/tutorial/our-team/demo68/images/img-1.jpg"
+        img: "https://bestjquery.com/tutorial/our-team/demo68/images/img-1.jpg",
+        delay: "200"
     },
     {
         name: "Jessica Doe",
         role: "Position",
-        img: "https://bestjquery.com/tutorial/our-team/demo68/images/img-1.jpg"
+        img: "https://bestjquery.com/tutorial/our-team/demo68/images/img-1.jpg",
+        delay: "600"
     },
     {
         name: "Jessica Doe",
         role: "Position",
-        img: "https://bestjquery.com/tutorial/our-team/demo68/images/img-1.jpg"
+        img: "https://bestjquery.com/tutorial/our-team/demo68/images/img-1.jpg",
+        delay: "800"
     },
     {
         name: "Sophia Brown",
         role: "Position",
-        img: "https://bestjquery.com/tutorial/our-team/demo68/images/img-1.jpg"
+        img: "https://bestjquery.com/tutorial/our-team/demo68/images/img-1.jpg",
+        delay: "1200"
     }
 ];
 
@@ -41,7 +45,7 @@ function Team() {
                 </div>
                 <div className="row mt-5 mb-2">
                     {teamMembers.map((member, index) => (
-                        <div key={index} className="col-12 col-lg-3 col-md-6">
+                        <div key={index} className="col-12 col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay={member.delay} data-aos-duration="1500" data-aos-once="true">
                             <div className="our-team overflow-hidden position-relative">
                                 <img src={member.img} alt={member.name} />
                                 <ul className="social">
