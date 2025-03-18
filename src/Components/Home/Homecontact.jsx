@@ -7,7 +7,7 @@ function Homecontact() {
    <>
    <div className="homecontact">
     <div className="container d-flex justify-content-center align-content-center align-items-end h-100">
-<div className="box_contact p-3 mx-auto" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+<div className="box_contact p-3 mx-auto" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
     <div className='text-white text-center p-2 p-lg-5 fstyle'>
     New To Step Laundry ? Start Here
     </div>

@@ -111,7 +111,6 @@ function Footer() {
                       className="footericon text-center p-2  mx-2 d-flex text-decoration-none text-white linkicon">
                       <FaLinkedinIn />
                     </Link>
-
                   </div>
                 </div>
               </div>
@@ -154,7 +153,6 @@ function Footer() {
       </div>
     </div>
           </div>
-
           <div className='text-white  text-center pera p-2'>
             Copyright © 2025 💚 Washstrip, All rights Reserved.
           </div>

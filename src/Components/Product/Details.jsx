@@ -139,44 +139,44 @@ const ProductDetails = () => {
                             </div>
                         </div>
                         {/* modal */}
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered ">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal-dialog modal-dialog-centered ">
+                                <div className="modal-content">
+                                    <div className="modal-header">
+                                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body modalbg">
+                                    <div className="modal-body modalbg">
                                         <form className="px-4 pt-4">
-                                            <div class="row mb-4" >
-                                                <div class="col-sm-6 col-12 mb-sm-0 mb-4">
-                                                    <div class="input-group p-2  bg-opacity-50" style={{ boxShadow: '5px 5px 10px var(--teal)', backgroundColor: "rgb(223 239 239 / 68%)", }}>
-                                                        <span class="input-group-text text-dark bg-transparent border-0">
+                                            <div className="row mb-4" >
+                                                <div className="col-sm-6 col-12 mb-sm-0 mb-4">
+                                                    <div className="input-group p-2  bg-opacity-50" style={{ boxShadow: '5px 5px 10px var(--teal)', backgroundColor: "rgb(223 239 239 / 68%)", }}>
+                                                        <span className="input-group-text text-dark bg-transparent border-0">
                                                             <FaUserAlt />
                                                         </span>
-                                                        <input type="text" class="form-control border-0 bg-transparent" placeholder="First_Name" />
+                                                        <input type="text" className="form-control border-0 bg-transparent" placeholder="First_Name" />
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-6 col-12">
-                                                    <div class="input-group p-2  bg-opacity-50" style={{ boxShadow: '5px 5px 10px var(--teal)', backgroundColor: "rgb(223 239 239 / 68%)", }}>
-                                                        <span class="input-group-text text-dark bg-transparent border-0">
+                                                <div className="col-sm-6 col-12">
+                                                    <div className="input-group p-2  bg-opacity-50" style={{ boxShadow: '5px 5px 10px var(--teal)', backgroundColor: "rgb(223 239 239 / 68%)", }}>
+                                                        <span className="input-group-text text-dark bg-transparent border-0">
                                                             <FaUserAlt />
                                                         </span>
-                                                        <input type="text" class="form-control border-0 bg-transparent" placeholder="Last_Name" />
+                                                        <input type="text" className="form-control border-0 bg-transparent" placeholder="Last_Name" />
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <div class="input-group p-2  bg-opacity-50" style={{ boxShadow: '5px 5px 10px var(--teal)', backgroundColor: "rgb(223 239 239 / 68%)", }}>
-                                                <span class="input-group-text text-dark bg-transparent border-0">
+                                            <div className="input-group p-2  bg-opacity-50" style={{ boxShadow: '5px 5px 10px var(--teal)', backgroundColor: "rgb(223 239 239 / 68%)", }}>
+                                                <span className="input-group-text text-dark bg-transparent border-0">
                                                     <MdEmail />
                                                 </span>
-                                                <input type="email" class="form-control border-0 bg-transparent" placeholder="E-mail" />
+                                                <input type="email" className="form-control border-0 bg-transparent" placeholder="E-mail" />
                                             </div>
-                                            <div class="position-relative my-4" >
-                                                <span class="position-absolute top-0 start-0 translate-middle-y ms-3 mt-3 pt-1 text-dark">
+                                            <div className="position-relative my-4" >
+                                                <span className="position-absolute top-0 start-0 translate-middle-y ms-3 mt-3 pt-1 text-dark">
                                                     <BsChatLeftTextFill />
                                                 </span>
-                                                <textarea class="form-control ps-5 rounded-0  bg-opacity-50" rows="3" placeholder="Your Message" style={{ boxShadow: '5px 5px 10px var(--teal)', backgroundColor: "rgb(223 239 239 / 68%)" }}></textarea>
+                                                <textarea className="form-control ps-5 rounded-0  bg-opacity-50" rows="3" placeholder="Your Message" style={{ boxShadow: '5px 5px 10px var(--teal)', backgroundColor: "rgb(223 239 239 / 68%)" }}></textarea>
                                             </div>
                                             <div className="text-center btndetail">
                                                 <ButtonCom btn="Get Quote" />

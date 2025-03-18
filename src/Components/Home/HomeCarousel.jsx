@@ -29,18 +29,18 @@ function HomeCarousel() {
                     style={{ marginTop: '-50px',zIndex:200 }} 
                 >
                     
-                    <div class="col-md-4 feature-box shadow-lg" data-aos="flip-left" data-aos-duration="1500" data-aos-once="true">
-                        <div class="feature-icon" style={{width:100,height:100}}><img src="https://cdn-icons-png.flaticon.com/512/6405/6405050.png" alt="" className='img-fluid w-100 h-100 object-fit-contain' /></div>
+                    <div className="col-md-4 feature-box shadow-lg" data-aos="flip-left" data-aos-duration="1500" data-aos-once="true">
+                        <div className="feature-icon" style={{width:100,height:100}}><img src="https://cdn-icons-png.flaticon.com/512/6405/6405050.png" alt="" className='img-fluid w-100 h-100 object-fit-contain' /></div>
                         <h5 className='fstyle'><strong>Save Time & Money</strong></h5>
                         <p className='pera fw-medium'>WASHSTRIP Detergent Sheets make laundry effortless.</p>
                     </div>
-                    <div class="col-md-4 feature-box shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">  
-                        <div class="feature-icon" style={{width:100,height:100}}><img src="https://cdn-icons-png.flaticon.com/512/5008/5008990.png" alt="" className='img-fluid w-100 h-100 object-fit-contain'/></div>
+                    <div className="col-md-4 feature-box shadow-lg" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">  
+                        <div className="feature-icon" style={{width:100,height:100}}><img src="https://cdn-icons-png.flaticon.com/512/5008/5008990.png" alt="" className='img-fluid w-100 h-100 object-fit-contain'/></div>
                         <h5 className='fstyle'><strong> Eco Friendly</strong></h5>
                         <p className='pera fw-medium'>Say goodbye to plastic waste with WASHSTRIP Detergent Sheets.</p>
                     </div>
-                    <div class="col-md-4 feature-box shadow-lg" data-aos="flip-right" data-aos-duration="1500" data-aos-once="true">
-                        <div class="feature-icon" style={{width:120,height:120}}><img src="https://cdn-icons-png.flaticon.com/512/9097/9097292.png" alt="" className='img-fluid w-100 h-100 object-fit-contain'/></div>
+                    <div className="col-md-4 feature-box shadow-lg" data-aos="flip-right" data-aos-duration="1500" data-aos-once="true">
+                        <div className="feature-icon" style={{width:120,height:120}}><img src="https://cdn-icons-png.flaticon.com/512/9097/9097292.png" alt="" className='img-fluid w-100 h-100 object-fit-contain'/></div>
                         <h5 className='fstyle'><strong>Satisfaction Guarantee</strong></h5>
                         <p className='pera fw-medium'>Your sustainable, powerful, and hassle-free laundry solution.</p>
                     </div>

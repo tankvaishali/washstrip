@@ -21,13 +21,13 @@ function Faq() {
                                 <div className='pera text-secondary mt-3 mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
                             </div>
                             <div
-                                class="accordion accordion-flush mt-1"
+                                className="accordion accordion-flush mt-1"
                                 id="accordionFlushExample"
                             >
-                                <div class="accordion-item border-0">
-                                    <h2 class="accordion-header my-2">
+                                <div className="accordion-item border-0">
+                                    <h2 className="accordion-header my-2">
                                         <button
-                                            class="accordion-button addicon text-white p-3"
+                                            className="accordion-button addicon text-white p-3"
                                             type="button"
                                             data-bs-toggle="collapse"
                                             data-bs-target="#flush-collapseOne"
@@ -38,19 +38,19 @@ function Faq() {
                                         </button>
                                         <div
                                             id="flush-collapseOne"
-                                            class="accordion-collapse collapse show"
+                                            className="accordion-collapse collapse show"
                                             data-bs-parent="#accordionFlushExample"
                                         >
-                                            <div class="accordion-body pera text-secondary">
+                                            <div className="accordion-body pera text-secondary">
                                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi ea nihil ducimus perspiciatis doloremque veniam nam ullam quaerat explicabo veritatis!
                                             </div>
                                         </div>
                                     </h2>
                                 </div>
-                                <div class="accordion-item border-0">
-                                    <h2 class="accordion-header my-2">
+                                <div className="accordion-item border-0">
+                                    <h2 className="accordion-header my-2">
                                         <button
-                                            class="accordion-button collapsed addicon text-white p-3"
+                                            className="accordion-button collapsed addicon text-white p-3"
                                             type="button"
                                             data-bs-toggle="collapse"
                                             data-bs-target="#flush-collapseTwo"
@@ -61,19 +61,19 @@ function Faq() {
                                         </button>
                                         <div
                                             id="flush-collapseTwo"
-                                            class="accordion-collapse collapse"
+                                            className="accordion-collapse collapse"
                                             data-bs-parent="#accordionFlushExample"
                                         >
-                                            <div class="accordion-body pera text-secondary">
+                                            <div className="accordion-body pera text-secondary">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam facilis assumenda iste, voluptas obcaecati aut suscipit aliquam incidunt perspiciatis laborum officia, quasi natus. magnam omnis quod laudantium ratione ab facere.
                                             </div>
                                         </div>
                                     </h2>
                                 </div>
-                                <div class="accordion-item border-0">
-                                    <h2 class="accordion-header my-2">
+                                <div className="accordion-item border-0">
+                                    <h2 className="accordion-header my-2">
                                         <button
-                                            class="accordion-button collapsed addicon text-white p-3"
+                                            className="accordion-button collapsed addicon text-white p-3"
                                             type="button"
                                             data-bs-toggle="collapse"
                                             data-bs-target="#flush-collapseThree"
@@ -84,10 +84,10 @@ function Faq() {
                                         </button>
                                         <div
                                             id="flush-collapseThree"
-                                            class="accordion-collapse collapse"
+                                            className="accordion-collapse collapse"
                                             data-bs-parent="#accordionFlushExample"
                                         >
-                                            <div class="accordion-body pera text-secondary">
+                                            <div className="accordion-body pera text-secondary">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. corporis id aspernatur doloribus ratione aperiam? maxime consequuntur labore a animi accusantium aperiam amet corrupti mollitia natus.
                                             </div>
                                         </div>
