@@ -262,3 +262,13 @@
 .breadcrumb-container a:hover {
     text-decoration: underline;
 }
+
+.leftbtn {
+    top: 40% !important;
+}
+
+@media screen and (max-width:776px) {
+    .leftbtn {
+        top: 33% !important;
+    }
+}

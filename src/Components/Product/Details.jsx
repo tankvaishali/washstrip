@@ -42,7 +42,7 @@ const ProductDetails = () => {
                     <div className="col-md-6 text-center position-relative">
                         {currentImageIndex > 0 && (
                             <button
-                                className="position-absolute top-50 start-0 translate-middle-y btn btn-dark rounded-circle p-2"
+                                className="position-absolute start-0 leftbtn translate-middle-y btn btn-dark rounded-circle p-2"
                                 onClick={prevImage}
                                 style={{ zIndex: 10 }}
                             >
@@ -57,8 +57,8 @@ const ProductDetails = () => {
                         </div>
 
                         {currentImageIndex < images.length - 1 && (
-                            <button className="position-absolute top-50 end-0 translate-middle-y btn btn-dark rounded-circle p-2"
-                                onClick={nextImage} style={{ zIndex: 10 }}>
+                            <button className="position-absolute leftbtn end-0 translate-middle-y btn btn-dark rounded-circle p-2"
+                                onClick={nextImage} style={{ zIndex: 10, top: "40%" }}>
                                 <FaChevronRight size={24} />
                             </button>
                         )}
