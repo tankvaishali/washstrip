@@ -7,7 +7,7 @@ function HomeCarousel() {
         <>
             <div className="carobgimg overflow-hidden fstyle w-100">
                 <div className='container-lg'>
-                    <div className='row align-items-center py-sm-5 py-0 pt-5 mb-4'>
+                    <div className='row align-items-center py-sm-5 py-0 pt-5'>
                         <div className='col-md-6 lh-lg mx-auto pt-5 mt-5 col-11 text-light animate__animated animate__bounceInLeft animate__slower d-flex  align-items-center'>
                             <div className=''>
                                 <h4>Welcome to WASHSTRIP</h4>
