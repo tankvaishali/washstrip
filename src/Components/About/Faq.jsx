@@ -40,7 +40,7 @@ function Faq() {
                                             className="accordion-collapse collapse show"
                                             data-bs-parent="#accordionFlushExample"
                                         >
-                                            <div class="accordion-body pera text-secondary">
+                                            <div className="accordion-body pera text-secondary">
                                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi ea nihil ducimus perspiciatis doloremque veniam nam ullam quaerat explicabo veritatis!
                                             </div>
                                         </div>
@@ -63,7 +63,7 @@ function Faq() {
                                             className="accordion-collapse collapse"
                                             data-bs-parent="#accordionFlushExample"
                                         >
-                                            <div class="accordion-body pera text-secondary">
+                                            <div className="accordion-body pera text-secondary">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam facilis assumenda iste, voluptas obcaecati aut suscipit aliquam incidunt perspiciatis laborum officia, quasi natus. magnam omnis quod laudantium ratione ab facere.
                                             </div>
                                         </div>
@@ -86,7 +86,7 @@ function Faq() {
                                             className="accordion-collapse collapse"
                                             data-bs-parent="#accordionFlushExample"
                                         >
-                                            <div class="accordion-body pera text-secondary">
+                                            <div className="accordion-body pera text-secondary">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. corporis id aspernatur doloribus ratione aperiam? maxime consequuntur labore a animi accusantium aperiam amet corrupti mollitia natus.
                                             </div>
                                         </div>

@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { Data } from "./Productdata";
-import { FaChevronLeft, FaChevronRight, FaUser, FaUserAlt } from "react-icons/fa"; // Import arrow icons
+import { FaChevronLeft, FaChevronRight, FaUserAlt } from "react-icons/fa"; // Import arrow icons
 import HOC from "../HOC/Hoc";
 import ButtonCom from "../HOC/ButtonCom";
-import { BiEnvelope } from "react-icons/bi";
-import { BsChatLeftText, BsChatLeftTextFill, BsFillEnvelopeFill } from "react-icons/bs";
+import { BsChatLeftTextFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import Lendingsec from "../Lendingsec";
 
@@ -139,7 +138,7 @@ const ProductDetails = () => {
                             </div>
                         </div>
                         {/* modal */}
-                        <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div className="modal-dialog modal-dialog-centered ">
                                 <div className="modal-content">
                                     <div className="modal-header">

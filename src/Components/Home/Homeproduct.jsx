@@ -28,87 +28,85 @@ function Homeproduct() {
     { img: "https://www.housedigest.com/img/gallery/the-laundry-sorting-hack-that-prolong-the-life-of-your-detergent/intro-1696600307.jpg" },
     { img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3aGudzW9UzcBvPcwwBbkQV4adJHLwgRPkuzU4BMK5YUgJ1NVSIFcM8JyG2u003stnKXg&usqp=CAU" },
   ];
-  let heading=[
+  let heading = [
     {
-      img:require("../../Assets/images/small_load_png.png"),
-      tittle:"Small Load – ½ sheet",
+      img: require("../../Assets/images/small_load_png.png"),
+      tittle: "Small Load – ½ sheet",
     },
     {
-      img:"https://cdn-icons-png.flaticon.com/512/3531/3531818.png",
-      tittle:"Regular Load – 1 sheet",
+      img: "https://cdn-icons-png.flaticon.com/512/3531/3531818.png",
+      tittle: "Regular Load – 1 sheet",
     },
     {
-      img:"https://cdn-icons-png.flaticon.com/512/5654/5654668.png",
-      tittle:" Large or Heavily Soiled Load – 2 sheets",
+      img: "https://cdn-icons-png.flaticon.com/512/5654/5654668.png",
+      tittle: " Large or Heavily Soiled Load – 2 sheets",
     },
   ]
   return (
     <>
-    <div className='homeproduct_bg ' >
-<div className="container-fluid py-5">
-<div className="container">
-<div className='text-white text-center d-flex flex-column justify-content-center align-items-center'>
-  <Titlecom ftitle="Our Products" title="How Many Washstrip Sheets Do You Need?"/>
-</div>
-<p className='pera text-secondary text-center fw-bold pt-2 mb-1'>Using Washstrip Detergent Sheets is simple! Just follow this easy guide to get the perfect clean every time:
-</p>
-<div className='text-white fw-bold text-center d-block d-lg- my-2 d-lg-flex  justify-content-center align-items-center'> 
+      <div className='homeproduct_bg ' >
+        <div className="container-fluid py-5">
+          <div className="container">
+            <div className='text-white text-center d-flex flex-column justify-content-center align-items-center'>
+              <Titlecom ftitle="Our Products" title="How Many Washstrip Sheets Do You Need?" />
+            </div>
+            <p className='pera text-secondary text-center fw-bold pt-2 mb-1'>Using Washstrip Detergent Sheets is simple! Just follow this easy guide to get the perfect clean every time:
+            </p>
+            <div className='text-white fw-bold text-center d-block d-lg- my-2 d-lg-flex  justify-content-center align-items-center'>
 
-{
-  heading.map((x,i)=>{
-    return(
+              {
+                heading.map((x, i) => {
+                  return (
 
-      <div className='ps-1 d-flex align-items-center'>
-    <div style={{width:50}} className='ms-1'>
-    <img src={x.img} alt="" className='img-fluid ' />
-    </div>
-    <div className='ps-1'> {x.tittle}</div>
-    </div>
-    )
-    
-  })
-}
-</div>
-</div>
+                    <div className='ps-1 d-flex align-items-center' key={i}>
+                      <div style={{ width: 50 }} className='ms-1'>
+                        <img src={x.img} alt="" className='img-fluid ' />
+                      </div>
+                      <div className='ps-1'> {x.tittle}</div>
+                    </div>
+                  )
 
-
-
-<div className="partners-logo-slider  mt-2 pt-2 pt-lg-5">
-          <div className="slide-track">
-         
-            {logos.concat(logos).map((logo, index) => (
-              <div className="sliderun m-2 rounded-4" key={index}>
-                <img src={logo.img} alt="Logo" className="img-fluid  d-flex slign-content-center align-items-center justify-content-center object-fit-cover w-100 h-100 rounded-4" />
-              </div>
-            ))}
-            {logos.concat(logos).map((logo, index) => (
-              <div className="sliderun m-2 rounded-4" key={index}>
-                <img src={logo.img} alt="Logo" className="img-fluid  d-flex slign-content-center align-items-center justify-content-center object-fit-cover w-100 h-100 rounded-4" />
-              </div>
-            ))}
-            
+                })
+              }
+            </div>
           </div>
-        </div>
-<div className="partners-logo-slider  mb-2 pb-lg-5">
-          <div className="slide-track02">
-         
-            {logos02.concat(logos02).map((logo, index) => (
-              <div className="sliderun m-2 rounded-4" key={index}>
-                <img src={logo.img} alt="Logo" className="img-fluid  d-flex slign-content-center align-items-center justify-content-center object-fit-cover w-100 h-100 rounded-4" />
-              </div>
-            ))}
-            {logos02.concat(logos02).map((logo, index) => (
-              <div className="sliderun m-2 rounded-4" key={index}>
-                <img src={logo.img} alt="Logo" className="img-fluid  d-flex slign-content-center align-items-center justify-content-center object-fit-cover w-100 h-100 rounded-4" />
-              </div>
-            ))}
+
+          <div className="partners-logo-slider  mt-2 pt-2 pt-lg-5">
+            <div className="slide-track">
+
+              {logos.concat(logos).map((logo, index) => (
+                <div className="sliderun m-2 rounded-4" key={index}>
+                  <img src={logo.img} alt="Logo" className="img-fluid  d-flex slign-content-center align-items-center justify-content-center object-fit-cover w-100 h-100 rounded-4" />
+                </div>
+              ))}
+              {logos.concat(logos).map((logo, index) => (
+                <div className="sliderun m-2 rounded-4" key={index}>
+                  <img src={logo.img} alt="Logo" className="img-fluid  d-flex slign-content-center align-items-center justify-content-center object-fit-cover w-100 h-100 rounded-4" />
+                </div>
+              ))}
+
+            </div>
           </div>
+          <div className="partners-logo-slider  mb-2 pb-lg-5">
+            <div className="slide-track02">
+
+              {logos02.concat(logos02).map((logo, index) => (
+                <div className="sliderun m-2 rounded-4" key={index}>
+                  <img src={logo.img} alt="Logo" className="img-fluid  d-flex slign-content-center align-items-center justify-content-center object-fit-cover w-100 h-100 rounded-4" />
+                </div>
+              ))}
+              {logos02.concat(logos02).map((logo, index) => (
+                <div className="sliderun m-2 rounded-4" key={index}>
+                  <img src={logo.img} alt="Logo" className="img-fluid  d-flex slign-content-center align-items-center justify-content-center object-fit-cover w-100 h-100 rounded-4" />
+                </div>
+              ))}
+            </div>
+          </div>
+
+
+
         </div>
-
-
-
-</div>
-    </div>
+      </div>
     </>
   );
 }

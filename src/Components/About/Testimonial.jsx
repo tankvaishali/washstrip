@@ -117,9 +117,9 @@
 // export default Testimonial;
 
 
-import React from 'react'
-import Titlecom from '../HOC/Titlecom'
-import { FaQuoteRight, FaStar } from 'react-icons/fa'
+import React from 'react';
+import Titlecom from '../HOC/Titlecom';
+import { FaQuoteRight } from 'react-icons/fa';
 import Slider from 'react-slick';
 import { IoMdStarHalf } from 'react-icons/io';
 import { MdStar } from 'react-icons/md';
