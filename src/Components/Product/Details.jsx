@@ -39,9 +39,7 @@ const ProductDetails = () => {
             <div className="container mt-5 fstyle">
 
                 <div className="row align-items-center">
-                    {/* Image Slider Section */}
                     <div className="col-md-6 text-center position-relative">
-                        {/* Left Arrow */}
                         {currentImageIndex > 0 && (
                             <button
                                 className="position-absolute top-50 start-0 translate-middle-y btn btn-dark rounded-circle p-2"
@@ -52,59 +50,29 @@ const ProductDetails = () => {
                             </button>
                         )}
 
-                        {/* Main Image - Fully Responsive */}
-                        <div
-                            className="d-flex align-items-center justify-content-center mx-auto"
-                            style={{
-                                width: "90%", // Responsive width
-                                maxWidth: "400px", // Max size for large screens
-                                height: "auto",
-                                minHeight: "300px", // Ensures min height for small screens
-                                overflow: "hidden",
-                            }}
-                        >
-                            <img
-                                data-aos="fade-up"
-                                data-aos-duration="2000"
-                                className="unique-box-shadow img-fluid"
-                                src={images[currentImageIndex]}
-                                alt="Product"
-                                style={{
-                                    maxWidth: "100%", // Ensures responsiveness
-                                    height: "100%",
-                                    objectFit: "contain",
-                                }}
-                            />
+                        <div className="d-flex align-items-center justify-content-center mx-auto"
+                            style={{ width: "90%", height: "auto", minHeight: "300px", overflow: "hidden", }}>
+                            <img data-aos="fade-up" data-aos-duration="2000" className="unique-box-shadow img-fluid" src={images[currentImageIndex]} alt="Product"
+                                style={{ maxWidth: "100%", width: "100%", height: "300px", objectFit: "contain" }} />
                         </div>
 
-                        {/* Right Arrow */}
                         {currentImageIndex < images.length - 1 && (
-                            <button
-                                className="position-absolute top-50 end-0 translate-middle-y btn btn-dark rounded-circle p-2"
-                                onClick={nextImage}
-                                style={{ zIndex: 10 }}
-                            >
+                            <button className="position-absolute top-50 end-0 translate-middle-y btn btn-dark rounded-circle p-2"
+                                onClick={nextImage} style={{ zIndex: 10 }}>
                                 <FaChevronRight size={24} />
                             </button>
                         )}
 
-                        {/* Thumbnail Images */}
                         <div className="col-12 mt-3">
                             {images.map((subImage, index) => (
                                 <div className="d-inline m-2" key={index}>
-                                    <img
-                                        src={subImage}
-                                        alt={`SubImage ${index + 1}`}
-                                        className={`img-fluid my-2 ${currentImageIndex === index ? 'border border-primary' : ''}`}
-                                        style={{ width: "60px", height: "60px", cursor: "pointer" }}
-                                        onClick={() => setCurrentImageIndex(index)}
-                                    />
+                                    <img src={subImage} alt={`SubImage ${index + 1}`} className={`img-fluid my-2 ${currentImageIndex === index ? 'border border-primary' : ''}`}
+                                        style={{ width: "60px", height: "60px", cursor: "pointer" }} onClick={() => setCurrentImageIndex(index)} />
                                 </div>
                             ))}
                         </div>
                     </div>
 
-                    {/* Specifications Section */}
                     <div className="col-md-6 p-4 rounded shadow-sm" >
                         <h2 className="fw-bold mb-3">{product.title}</h2>
                         <p className="text-muted">{product.description}</p>
@@ -186,7 +154,6 @@ const ProductDetails = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div >
             </div >
