@@ -160,7 +160,7 @@ function Testimonial() {
         {
             id: 1,
             name: "Nikhil Rana",
-            title: "Our Client",
+            title: "Position",
             review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatibus nihil, reiciendis minus nisi totam aperiam id quia ipsam deleniti laboriosam cum ad molestias doloribus.",
             image: "https://kitpro.site/spinzy/wp-content/uploads/sites/319/2025/01/14.jpg",
             rating: 5
@@ -168,7 +168,7 @@ function Testimonial() {
         {
             id: 2,
             name: "Neha Shah",
-            title: "Our Client",
+            title: "Position",
             review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatibus nihil, reiciendis minus nisi totam aperiam id quia ipsam deleniti laboriosam cum ad molestias doloribus.",
             image: "https://kitpro.site/spinzy/wp-content/uploads/sites/319/2025/01/12.jpg",
             rating: 3.5
@@ -176,7 +176,7 @@ function Testimonial() {
         {
             id: 3,
             name: "Raj Patel",
-            title: "Our Client",
+            title: "Position",
             review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatibus nihil, reiciendis minus nisi totam aperiam id quia ipsam deleniti laboriosam cum ad molestias doloribus.",
             image: "https://kitpro.site/spinzy/wp-content/uploads/sites/319/2025/01/14.jpg",
             rating: 4
@@ -184,7 +184,7 @@ function Testimonial() {
         {
             id: 4,
             name: "Kiran Patel",
-            title: "Our Client",
+            title: "Position",
             review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatibus nihil, reiciendis minus nisi totam aperiam id quia ipsam deleniti laboriosam cum ad molestias doloribus.",
             image: "https://kitpro.site/spinzy/wp-content/uploads/sites/319/2025/01/12.jpg",
             rating: 4.5

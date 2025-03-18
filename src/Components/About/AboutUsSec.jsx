@@ -18,7 +18,7 @@ function AboutUsSec() {
                         <div className="h-100">
                             <Titlecom ftitle={"About Us"} title={"Your Trusted Partner In Wahing Care."} />
                             <div className='pera text-secondary pt-2'>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                                Say goodbye to bulky bottles and messy detergents! Premium Wash Strips offer a powerful, eco-friendly, and mess-free laundry solution—quick-dissolving, ultra-concentrated, and waste-free.
                             </div>
                             <div>
                                 <div className='mt-3'>
