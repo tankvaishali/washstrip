@@ -226,6 +226,10 @@
     margin-bottom: 50px;
 }
 
+.howto .spikes {
+    margin-bottom: 0px;
+}
+
 .spikes::after {
     content: '';
     position: absolute;

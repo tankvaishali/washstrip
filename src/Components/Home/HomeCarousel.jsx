@@ -27,8 +27,7 @@ function HomeCarousel() {
             <div className='container '>
                 <div className='row justify-content-center text-center overflow-hidden '
                     style={{ marginTop: '-50px', zIndex: 200 }}
-                >
-                    
+                >                   
                     <div class="col-md-4 feature-box shadow-lg" data-aos="flip-left" data-aos-duration="1500" data-aos-once="true">
                         <div class="feature-icon" style={{width:100,height:100}}><img src="https://cdn-icons-png.flaticon.com/512/6405/6405050.png" alt="" className='img-fluid w-100 h-100 object-fit-contain' /></div>
                         <h5 className='fstyle'><strong>Save Time & Money</strong></h5>

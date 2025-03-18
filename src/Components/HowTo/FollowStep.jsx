@@ -43,7 +43,7 @@ function FollowStep() {
 
     return (
         <>
-            <div className='FollowStep_bg my-5 py-5'>
+            <div className='FollowStep_bg  py-5'>
                 <div className="container">
                     <div>
                         <h2 className='fstyle text-center text-white' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Steps To Follow</h2>
