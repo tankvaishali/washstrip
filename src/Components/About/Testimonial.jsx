@@ -160,32 +160,28 @@ function Testimonial() {
         {
             id: 1,
             name: "Nikhil Rana",
-            title: "Position",
-            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatibus nihil, reiciendis minus nisi totam aperiam id quia ipsam deleniti laboriosam cum ad molestias doloribus.",
+            review: "WashStrip has made laundry so easy! No more messy liquid or powder detergents—just one strip, and my clothes come out fresh and clean.",
             image: "https://kitpro.site/spinzy/wp-content/uploads/sites/319/2025/01/14.jpg",
             rating: 5
         },
         {
             id: 2,
             name: "Neha Shah",
-            title: "Position",
-            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatibus nihil, reiciendis minus nisi totam aperiam id quia ipsam deleniti laboriosam cum ad molestias doloribus.",
+            review: "Exceptional cleaning power! Strip removes tough stains, works in cold water, and keeps my clothes smelling great. Highly recommended!",
             image: "https://kitpro.site/spinzy/wp-content/uploads/sites/319/2025/01/12.jpg",
             rating: 3.5
         },
         {
             id: 3,
             name: "Raj Patel",
-            title: "Position",
-            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatibus nihil, reiciendis minus nisi totam aperiam id quia ipsam deleniti laboriosam cum ad molestias doloribus.",
+            review: "WashStrip is amazing! No spills, no measuring—just one strip for a fresh, clean wash. Compact, effective, and perfect for laundry!",
             image: "https://kitpro.site/spinzy/wp-content/uploads/sites/319/2025/01/14.jpg",
             rating: 4
         },
         {
             id: 4,
             name: "Kiran Patel",
-            title: "Position",
-            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatibus nihil, reiciendis minus nisi totam aperiam id quia ipsam deleniti laboriosam cum ad molestias doloribus.",
+            review: "A revolutionary product! My clothes feel softer, and I love knowing that I’m reducing plastic waste with every wash.",
             image: "https://kitpro.site/spinzy/wp-content/uploads/sites/319/2025/01/12.jpg",
             rating: 4.5
         }
@@ -198,7 +194,7 @@ function Testimonial() {
                     <Titlecom ftitle="Testimonials" title="What Clients Say About Washstrip" />
                 </div>
                 <div className='pera text-center pt-2'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, atque! Fugiat veniam quidem expedita numquam corporis natus eligendi velit molestias.
+                    Say goodbye to messy detergents and enjoy effortless laundry with WashStrip! A powerful, eco-friendly, and space-saving solution trusted by happy customers.
                 </div>
                 <div className="my-4">
                     <div className="testimonial_bg p-3 p-md-4 p-lg-5 rounded-5">
@@ -214,7 +210,7 @@ function Testimonial() {
                                                     </span>
                                                 ))}
                                             </div>
-                                            <div className="text-secondary pera mt-3 mb-4 testi_review">{testimonial.review}</div>
+                                            <div className="text-secondary pera mt-3 mb-4 testi_review" style={{ wordBreak: "break-all" }}>{testimonial.review}</div>
                                             <div className="d-flex align-items-center justify-content-between">
                                                 <div className="d-flex align-items-center">
                                                     <div style={{ width: "50px", height: "50px" }}>
@@ -224,9 +220,8 @@ function Testimonial() {
                                                             alt={testimonial.name}
                                                         />
                                                     </div>
-                                                    <div className="ms-3">
+                                                    <div className="ms-3 mt-2">
                                                         <h3 className="fstyle fs-5 text-uppercase">{testimonial.name}</h3>
-                                                        <div className="pera text-secondary">{testimonial.title}</div>
                                                     </div>
                                                 </div>
                                                 <FaQuoteRight className="fs-1" style={{ color: "rgba(0, 141, 141, 0.689)" }} />

@@ -25,7 +25,7 @@ function ProductStep() {
     return (
         <div className='container'>
             <div className='row'>
-                <div>
+                <div className='mt-5'>
                     <h2 className='fstyle text-center pb-4 pt-1' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Use the Right Sheet Every Time</h2>
                 </div>
                 {products.map((product, index) => (

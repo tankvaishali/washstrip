@@ -7,7 +7,7 @@ function AboutUsSec() {
         <>
             <div className="container">
                 <div className="main_about_us_sec row d-flex justify-content-center align-items-center align-content-center">
-                    <div className="col-12 col-lg-6 py-3 px-4">
+                    <div className="col-12 col-lg-6 py-3 px-4" data-aos="fade-right" data-aos-duration="1500" data-aos-once="true">
                         <div className="h-100">
                             <div>
                                 <img src={require("../../Assets/images/about_us Page image.png")} className='w-100 h-100 img-fluid object-fit-cover' alt="" />
