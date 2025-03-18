@@ -29,7 +29,8 @@
 
 .greencolor {
   color: var(--green);
- }
+}
+
 /* Button css start*/
 .c-button {
   color: #000;
@@ -141,6 +142,12 @@
   animation: waveMove 1.5s infinite linear;
 }
 
+.navbar-nav .nav-link:focus {
+  outline: none !important;
+  box-shadow: 0px !important;
+  border-radius: 0px !important;
+}
+
 @keyframes waveMove {
   0% {
     transform: translateX(-10px);
@@ -155,12 +162,7 @@
   }
 }
 
-.navbar-nav .nav-link:focus {
-  outline: none;
-  box-shadow: 0 0 15px rgba(0, 123, 255, 0.7);
-  background: rgba(0, 123, 255, 0.1);
-  border-radius: 10px;
-}
+
 
 .navbar-toggler-icon {
   background-image: none !important;
@@ -176,9 +178,9 @@
 
 /* HEADER END */
 /* footer start */
-.footer_bg{
+.footer_bg {
   background-image: url("./Assets/images/product_bg_image.jpg");
-  background-position:center center;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -261,4 +263,5 @@
 .linkhover:hover .footerlinkicon {
   transform: scale(1.1) !important;
 }
+
 /* footer end */
