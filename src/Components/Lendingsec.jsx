@@ -9,7 +9,7 @@ function Lendingsec({ Page }) {
                 <Link to="/" className='h3 fw-normal'>Home</Link>
                 <MdKeyboardDoubleArrowRight className='ms-2 h4' />
                 {/* <MdKeyboardDoubleArrowRight className='me-2 h4' /> */}
-                <Link to="/about" className='h3 fw-normal'>{Page}</Link>
+                <Link className='h3 fw-normal' style={{ cursor: "context-menu" }}>{Page}</Link>
             </div>
         </section>
     )
