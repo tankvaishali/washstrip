@@ -56,7 +56,7 @@ function Team() {
                                 </ul>
                                 <div className="team-content text-uppercase">
                                     <h3 className="fstyle fs-5">{member.name}</h3>
-                                    <span className="pera text-secondary">{member.role}</span>
+                                    {/* <span className="pera text-secondary">{member.role}</span> */}
                                 </div>
                             </div>
                         </div>

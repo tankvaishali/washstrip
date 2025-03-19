@@ -15,7 +15,7 @@ function ConatactForm() {
                             <div className='shadow p-4 rounded-3'>
                                 <div>
                                     <h2 className='fstyle' data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">Get In Touch With Us</h2>
-                                    <div className='text-secondary pera my-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quidem autem sint dolore ab nulla aperiam voluptate doloribus dolor atque aliquam modi perferendis deleniti cum!</div>
+                                    <div className='text-secondary pera my-3'>At WashStrip, we are committed to providing you with the best convenience and quality service. If you have any questions or need assistance, feel free to contact us!</div>
                                 </div>
                                 <div data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
                                     <div className='w-100 d-lg-flex d-md-flex gap-3'>
@@ -57,7 +57,7 @@ function ConatactForm() {
                                 </div>
                                 <div>
                                     <h2 className='fstyle text-white'>Contact Info</h2>
-                                    <div className='text-white pera my-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat repellendus culpa velit? Quod odio, rem veritatis eum dolor recusandae laudantium, vero sint dolore nobis sequi.</div>
+                                    <div className='text-white pera my-3'>We are always ready to assist you. Contact us through the details provided below.</div>
                                 </div>
                                 <div className='w-100'>
                                     <div style={{ border: "1px dashed whitesmoke" }}></div>
@@ -65,15 +65,15 @@ function ConatactForm() {
                                 <div>
                                     <div className='con_mainMenu text-white my-3'>
                                         <div className='fstyle fs-3 fw-semibold mb-1'><FaLocationDot className='Contact_icon' /> Address</div>
-                                        <Link to={""} className='Conatct_menu pera text-decoration-none text-white'><div style={{ marginLeft: "31px" }}>Plot No. 1, Shop No. 5, Ground Floor, Shaktinagar Co. Op. Housing Society, Near Kantareswar Mahadev Temple Katargam, Surat – 395004, Gujarat.</div></Link>
+                                        <Link to={"https://maps.app.goo.gl/2Zm1ZC443PhT64D39"} target="_blank" className='Conatct_menu pera text-decoration-none text-white'><div style={{ marginLeft: "31px" }}>Plot No. 1, Shop No. 5, Ground Floor, Shaktinagar Co. Op. Housing Society, Near Kantareswar Mahadev Temple Katargam, Surat – 395004, Gujarat.</div></Link>
                                     </div>
                                     <div className='con_mainMenu text-white'>
                                         <div className='fstyle fs-3 fw-semibold mb-1'><FaMobile className='Contact_icon' /> Phone No.</div>
-                                        <Link to={""} className='Conatct_menu pera text-decoration-none text-white'><div style={{ marginLeft: "31px" }}>(+91) 12345 67890</div></Link>
+                                        <Link to={"tel:1234567890"} className='Conatct_menu pera text-decoration-none text-white'><div style={{ marginLeft: "31px" }}>(+91) 12345 67890</div></Link>
                                     </div>
                                     <div className='con_mainMenu text-white my-3'>
                                         <div className='fstyle fs-3 fw-semibold mb-1'><IoMail className='Contact_icon' /> E-mail</div>
-                                        <Link to={""} className='Conatct_menu pera text-decoration-none text-white'><div style={{ marginLeft: "31px" }}>abc123@gmail.com</div></Link>
+                                        <Link to={"mailto:info@tharayilpower.com"} className='Conatct_menu pera text-decoration-none text-white'><div style={{ marginLeft: "31px" }}>abc123@gmail.com</div></Link>
                                     </div>
                                 </div>
                             </div>
