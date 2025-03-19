@@ -9,15 +9,15 @@ function ConatactForm() {
     return (
         <>
             <div className='container mb-5' style={{ marginTop: "120px" }}>
-                <div className='row'>
+                <div className='row overflow-hidden'>
                     <div className='col-12 col-lg-7 mb-4'>
                         <div className="h-100">
                             <div className='shadow p-4 rounded-3'>
                                 <div>
-                                    <h2 className='fstyle'>Get In Touch With Us</h2>
+                                    <h2 className='fstyle' data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">Get In Touch With Us</h2>
                                     <div className='text-secondary pera my-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quidem autem sint dolore ab nulla aperiam voluptate doloribus dolor atque aliquam modi perferendis deleniti cum!</div>
                                 </div>
-                                <div>
+                                <div data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
                                     <div className='w-100 d-lg-flex d-md-flex gap-3'>
                                         <div className='w-100 w-lg-50 w-md-50 mt-2'>
                                             <label htmlFor="" className='d-block fstyle'>Name</label>
@@ -49,7 +49,7 @@ function ConatactForm() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-12 col-lg-5 mb-4'>
+                    <div className='col-12 col-lg-5 mb-4' data-aos="fade-left" data-aos-duration="1500" data-aos-once="true">
                         <div className="h-100">
                             <div className='Conatct_Link-Img p-4 rounded-3 align-items-center align-content-center'>
                                 <div className='my-3'>
@@ -84,7 +84,7 @@ function ConatactForm() {
 
             {/* Map */}
             <div className='container'>
-                <div className='mb-5 pb-4'>
+                <div className='mb-5 pb-4' data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
                     <iframe title='google map' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29752.700882695055!2d72.8291723!3d21.228374199999998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fdfc718eb4b%3A0xcf5efb27dfe048c5!2sBelpatra%20Pharmachem!5e0!3m2!1sen!2sin!4v1740025356298!5m2!1sen!2sin" width="100%" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className='shadow-lg'></iframe>
                 </div>
             </div>
